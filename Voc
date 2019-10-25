@@ -9,11 +9,13 @@ adresse
 to define classes : 
 id
 capacity
-avia_bike
-avia_slot
+available_bike
+available_slot
 last_update
 station
 
 -----------------
 Ptpy : 
 has_xxx 
+Inverse :
+is_xxx
