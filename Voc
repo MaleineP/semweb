@@ -1,0 +1,19 @@
+defined classes:
+
+name 
+longitude
+latitude
+adresse
+
+------------------
+to define classes : 
+id
+capacity
+avia_bike
+avia_slot
+last_update
+station
+
+-----------------
+Ptpy : 
+has_xxx 
