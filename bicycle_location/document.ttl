@@ -1,0 +1,52 @@
+
+@base          <http://example.org/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+"Chaléassiere"  ontology:hasCapacity  16 ;
+        ontology:hasId        102 ;
+        geo:lat               45.453601 ;
+        geo:long              4.383062 .
+
+"Carnot"  ontology:hasCapacity  24 ;
+        ontology:hasId        103 ;
+        geo:lat               45.447093 ;
+        geo:long              4.385487 .
+
+"A. Thomas"  ontology:hasCapacity  16 ;
+        ontology:hasId        109 ;
+        geo:lat               45.4328 ;
+        geo:long              4.388035 .
+
+"Châteaucreux"  ontology:hasCapacity  32 ;
+        ontology:hasId        101 ;
+        geo:lat               45.442972 ;
+        geo:long              4.398855 .
+
+"Jaures"  ontology:hasCapacity  32 ;
+        ontology:hasId        105 ;
+        geo:lat               45.440725 ;
+        geo:long              4.387295 .
+
+"Jacquard"  ontology:hasCapacity  12 ;
+        ontology:hasId        104 ;
+        geo:lat               45.441888 ;
+        geo:long              4.382492 .
+
+"Clapier"  ontology:hasCapacity  16 ;
+        ontology:hasId        107 ;
+        geo:lat               45.436903 ;
+        geo:long              4.378789 .
+
+"Peuple"  ontology:hasCapacity  32 ;
+        ontology:hasId        108 ;
+        geo:lat               45.436265 ;
+        geo:long              4.387539 .
+
+"Dorian"  ontology:hasCapacity  32 ;
+        ontology:hasId        106 ;
+        geo:lat               45.43836 ;
+        geo:long              4.388435 .
