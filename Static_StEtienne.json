@@ -1,0 +1,211 @@
+{
+  "data": {
+    "stations": [
+      {
+        "capacity": 32,
+        "lat": 45.442972,
+        "lon": 4.398855,
+        "name": "Châteaucreux",
+        "station_id": "101"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.453601,
+        "lon": 4.383062,
+        "name": "Chaléassiere",
+        "station_id": "102"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.447093,
+        "lon": 4.385487,
+        "name": "Carnot",
+        "station_id": "103"
+      },
+      {
+        "capacity": 12,
+        "lat": 45.441888,
+        "lon": 4.382492,
+        "name": "Jacquard",
+        "station_id": "104"
+      },
+      {
+        "capacity": 32,
+        "lat": 45.440725,
+        "lon": 4.387295,
+        "name": "Jaures",
+        "station_id": "105"
+      },
+      {
+        "capacity": 32,
+        "lat": 45.43836,
+        "lon": 4.388435,
+        "name": "Dorian",
+        "station_id": "106"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.436903,
+        "lon": 4.378789,
+        "name": "Clapier",
+        "station_id": "107"
+      },
+      {
+        "capacity": 32,
+        "lat": 45.436265,
+        "lon": 4.387539,
+        "name": "Peuple",
+        "station_id": "108"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.4328,
+        "lon": 4.388035,
+        "name": "A. Thomas",
+        "station_id": "109"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.43065,
+        "lon": 4.389752,
+        "name": "A. France",
+        "station_id": "110"
+      },
+      {
+        "capacity": 12,
+        "lat": 45.427396,
+        "lon": 4.386718,
+        "name": "Tardy",
+        "station_id": "111"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.427296,
+        "lon": 4.390669,
+        "name": "Tréfilerie",
+        "station_id": "112"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.42342,
+        "lon": 4.392292,
+        "name": "Centre 2",
+        "station_id": "113"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.415579,
+        "lon": 4.393322,
+        "name": "Bellevue",
+        "station_id": "114"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.426972,
+        "lon": 4.404048,
+        "name": "Congrès",
+        "station_id": "115"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.431808,
+        "lon": 4.395127,
+        "name": "Villeboeuf",
+        "station_id": "116"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.435109,
+        "lon": 4.391962,
+        "name": "Chavanelle",
+        "station_id": "117"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.437404,
+        "lon": 4.392469,
+        "name": "J. Moulin",
+        "station_id": "118"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.4395,
+        "lon": 4.395669,
+        "name": "Fourneyron",
+        "station_id": "119"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.439538,
+        "lon": 4.403407,
+        "name": "St Francois",
+        "station_id": "120"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.46502,
+        "lon": 4.37874,
+        "name": "Terrasse",
+        "station_id": "122"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.422732,
+        "lon": 4.409376,
+        "name": "Marx",
+        "station_id": "123"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.448458,
+        "lon": 4.39492,
+        "name": "Janin",
+        "station_id": "124"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.450533,
+        "lon": 4.403566,
+        "name": "Soleil",
+        "station_id": "125"
+      },
+      {
+        "capacity": 32,
+        "lat": 45.479487,
+        "lon": 4.362541,
+        "name": "Hôp. Nord",
+        "station_id": "126"
+      },
+      {
+        "capacity": 24,
+        "lat": 45.4732778,
+        "lon": 4.3665277,
+        "name": "J. Marc",
+        "station_id": "127"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.457,
+        "lon": 4.39241,
+        "name": "Technopole",
+        "station_id": "128"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.4357171,
+        "lon": 4.3829931,
+        "name": "Roannelle",
+        "station_id": "129"
+      },
+      {
+        "capacity": 16,
+        "lat": 45.420286,
+        "lon": 4.392776,
+        "name": "Bicentenaire",
+        "station_id": "130"
+      }
+    ]
+  },
+  "last_updated": 1575038439,
+  "ttl": 60
+}

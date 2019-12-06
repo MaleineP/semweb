@@ -1,0 +1,298 @@
+{
+  "data": {
+    "stations": [
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041095,
+        "num_bikes_available": 4,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 28,
+        "station_id": "101"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040903,
+        "num_bikes_available": 4,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 12,
+        "station_id": "102"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041139,
+        "num_bikes_available": 9,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 15,
+        "station_id": "103"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040971,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 6,
+        "station_id": "104"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041101,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 25,
+        "station_id": "105"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040834,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 25,
+        "station_id": "106"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040550,
+        "num_bikes_available": 3,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 13,
+        "station_id": "107"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040690,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 25,
+        "station_id": "108"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040623,
+        "num_bikes_available": 4,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 12,
+        "station_id": "109"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041037,
+        "num_bikes_available": 8,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 8,
+        "station_id": "110"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040604,
+        "num_bikes_available": 4,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 8,
+        "station_id": "111"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040815,
+        "num_bikes_available": 12,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 12,
+        "station_id": "112"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040568,
+        "num_bikes_available": 12,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 12,
+        "station_id": "113"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040657,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 17,
+        "station_id": "114"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040538,
+        "num_bikes_available": 22,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 2,
+        "station_id": "115"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040952,
+        "num_bikes_available": 3,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 13,
+        "station_id": "116"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040838,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 18,
+        "station_id": "117"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040332,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 10,
+        "station_id": "118"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040357,
+        "num_bikes_available": 15,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 9,
+        "station_id": "119"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040677,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 10,
+        "station_id": "120"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040410,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 9,
+        "station_id": "122"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041084,
+        "num_bikes_available": 10,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 6,
+        "station_id": "123"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040636,
+        "num_bikes_available": 8,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 8,
+        "station_id": "124"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040567,
+        "num_bikes_available": 10,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 6,
+        "station_id": "125"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575041141,
+        "num_bikes_available": 9,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 23,
+        "station_id": "126"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040586,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 18,
+        "station_id": "127"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040415,
+        "num_bikes_available": 6,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 10,
+        "station_id": "128"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040709,
+        "num_bikes_available": 7,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 9,
+        "station_id": "129"
+      },
+      {
+        "is_installed": 1,
+        "is_renting": 1,
+        "is_returning": 1,
+        "last_reported": 1575040522,
+        "num_bikes_available": 8,
+        "num_bikes_disabled": 0,
+        "num_docks_available": 8,
+        "station_id": "130"
+      }
+    ]
+  },
+  "last_updated": 1575041189,
+  "ttl": 60
+}
