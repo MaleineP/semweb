@@ -21,6 +21,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_address -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_address">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_address"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike">
@@ -75,6 +83,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_address -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_address"/>
+    
+
+
     <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike"/>
@@ -113,6 +127,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#address -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#address">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_address"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -190,6 +217,12 @@
     <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_address"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#address"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike"/>
