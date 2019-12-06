@@ -60,6 +60,12 @@
 			<type>pom</type>
 			<version>3.13.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>apache-jena-libs</artifactId>
+			<type>pom</type>
+			<version>3.13.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
