@@ -5,18 +5,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#>
 
 GENERATE {
-  ?name ontology:hasId ?id;
-    ontology:hasCapacity ?cap;
+  ?name ontology:has_id ?id;
+    ontology:has_capacity ?cap;
     geo:lat ?lat;
     geo:long ?lon.
   }
 
 SOURCE <https://saint-etienne-gbfs.klervi.net/gbfs/en/station_information.json> AS ?source
-ITERATOR iter:for(0,1,9) AS ?index
+ITERATOR iter:JSONPath(?source,"$.data.stations[*]") AS ?i
 WHERE{
-  BIND(xsd:integer(fun:JSONPath(?source,"$.data.stations[{?index}].station_id")) AS ?id)
-  BIND(fun:JSONPath(?source,"$.data.stations[{?index}].name") AS ?name)
-  BIND(xsd:integer(fun:JSONPath(?source,"$.data.stations[{?index}].capacity")) AS ?cap)
-  BIND(xsd:decimal(fun:JSONPath(?source,"$.data.stations[{?index}].lat")) AS ?lat)
-  BIND(xsd:decimal(fun:JSONPath(?source,"$.data.stations[{?index}].lon")) AS ?lon)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.station_id")) AS ?id)
+  BIND(fun:JSONPath(?i,"$.name") AS ?name)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.capacity")) AS ?cap)
+  BIND(xsd:decimal(fun:JSONPath(?i,"$.lat")) AS ?lat)
+  BIND(xsd:decimal(fun:JSONPath(?i,"$.lon")) AS ?lon)
   }

@@ -13,12 +13,12 @@ GENERATE {
   
   }
 
-SOURCE <https://saint-etienne-gbfs.klervi.net/gbfs/en/station_status.json> AS ?mobile
-ITERATOR iter:for(0,1,9) AS ?index
+SOURCE <https://saint-etienne-gbfs.klervi.net/gbfs/en/station_status.json> AS ?source
+ITERATOR iter:JSONPath(?source,"$.data.stations[*]") AS ?i
 WHERE{
-  BIND(xsd:integer(fun:JSONPath(?mobile,"$.data.stations[{?index}].station_id")) AS ?id)
-  BIND(xsd:integer(fun:JSONPath(?mobile,"$.data.stations[{?index}].num_bikes_available")) AS ?aviable_bike)
-  BIND(xsd:integer(fun:JSONPath(?mobile,"$.data.stations[{?index}].num_docks_available")) AS ?aviable_slot)
-  BIND(xsd:integer(fun:JSONPath(?mobile,"$.data.stations[{?index}].last_reported")) AS ?last_update)
-  BIND(xsd:boolean(fun:JSONPath(?mobile,"$.data.stations[{?index}].is_renting")) AS ?is_renting)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.station_id")) AS ?id)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.num_bikes_available")) AS ?aviable_bike)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.num_docks_available")) AS ?aviable_slot)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.last_reported")) AS ?last_update)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.is_renting")) AS ?is_renting)
   }
