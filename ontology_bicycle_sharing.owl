@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_slot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_slot">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_slot"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_capacity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_capacity">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_capacity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_id"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_last_update -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_last_update">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_last_update"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_station -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_station">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_a_station"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_a_station -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_a_station"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_slot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_slot"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_capacity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_capacity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_id -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_last_update -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_last_update"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_bike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_bike">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_bike"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_slot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_slot">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_available_slot"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#capacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#capacity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_capacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#id -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#id">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_a_station"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_id"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#last_update -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#last_update">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#is_last_update"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#station">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_bike"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_bike"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_available_slot"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#available_slot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_capacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#capacity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#id"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_last_update"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#last_update"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
