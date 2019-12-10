@@ -1,0 +1,239 @@
+
+@base          <http://example.org/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        116 ;
+  ontology:hasname       "Villeboeuf" ;
+  geo:lat                45.431808 ;
+  geo:long               4.395127
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        130 ;
+  ontology:hasname       "Bicentenaire" ;
+  geo:lat                45.420286 ;
+  geo:long               4.392776
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        120 ;
+  ontology:hasname       "St Francois" ;
+  geo:lat                45.439538 ;
+  geo:long               4.403407
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        102 ;
+  ontology:hasname       "Chaléassiere" ;
+  geo:lat                45.453601 ;
+  geo:long               4.383062
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        114 ;
+  ontology:hasname       "Bellevue" ;
+  geo:lat                45.415579 ;
+  geo:long               4.393322
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        129 ;
+  ontology:hasname       "Roannelle" ;
+  geo:lat                45.4357171 ;
+  geo:long               4.3829931
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        123 ;
+  ontology:hasname       "Marx" ;
+  geo:lat                45.422732 ;
+  geo:long               4.409376
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        112 ;
+  ontology:hasname       "Tréfilerie" ;
+  geo:lat                45.427296 ;
+  geo:long               4.390669
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        125 ;
+  ontology:hasname       "Soleil" ;
+  geo:lat                45.450533 ;
+  geo:long               4.403566
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        117 ;
+  ontology:hasname       "Chavanelle" ;
+  geo:lat                45.435109 ;
+  geo:long               4.391962
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        124 ;
+  ontology:hasname       "Janin" ;
+  geo:lat                45.448458 ;
+  geo:long               4.39492
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        128 ;
+  ontology:hasname       "Technopole" ;
+  geo:lat                45.457 ;
+  geo:long               4.39241
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  32 ;
+  ontology:has_id        106 ;
+  ontology:hasname       "Dorian" ;
+  geo:lat                45.43836 ;
+  geo:long               4.388435
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        127 ;
+  ontology:hasname       "J. Marc" ;
+  geo:lat                45.4732778 ;
+  geo:long               4.3665277
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        122 ;
+  ontology:hasname       "Terrasse" ;
+  geo:lat                45.46502 ;
+  geo:long               4.37874
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  32 ;
+  ontology:has_id        108 ;
+  ontology:hasname       "Peuple" ;
+  geo:lat                45.436265 ;
+  geo:long               4.387539
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  32 ;
+  ontology:has_id        105 ;
+  ontology:hasname       "Jaures" ;
+  geo:lat                45.440725 ;
+  geo:long               4.387295
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  12 ;
+  ontology:has_id        111 ;
+  ontology:hasname       "Tardy" ;
+  geo:lat                45.427396 ;
+  geo:long               4.386718
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        113 ;
+  ontology:hasname       "Centre 2" ;
+  geo:lat                45.42342 ;
+  geo:long               4.392292
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  32 ;
+  ontology:has_id        101 ;
+  ontology:hasname       "Châteaucreux" ;
+  geo:lat                45.442972 ;
+  geo:long               4.398855
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  12 ;
+  ontology:has_id        104 ;
+  ontology:hasname       "Jacquard" ;
+  geo:lat                45.441888 ;
+  geo:long               4.382492
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        103 ;
+  ontology:hasname       "Carnot" ;
+  geo:lat                45.447093 ;
+  geo:long               4.385487
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        118 ;
+  ontology:hasname       "J. Moulin" ;
+  geo:lat                45.437404 ;
+  geo:long               4.392469
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        115 ;
+  ontology:hasname       "Congrès" ;
+  geo:lat                45.426972 ;
+  geo:long               4.404048
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  32 ;
+  ontology:has_id        126 ;
+  ontology:hasname       "Hôp. Nord" ;
+  geo:lat                45.479487 ;
+  geo:long               4.362541
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        110 ;
+  ontology:hasname       "A. France" ;
+  geo:lat                45.43065 ;
+  geo:long               4.389752
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        107 ;
+  ontology:hasname       "Clapier" ;
+  geo:lat                45.436903 ;
+  geo:long               4.378789
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  24 ;
+  ontology:has_id        119 ;
+  ontology:hasname       "Fourneyron" ;
+  geo:lat                45.4395 ;
+  geo:long               4.395669
+] .
+
+[ a                      ontology:station ;
+  ontology:has_capacity  16 ;
+  ontology:has_id        109 ;
+  ontology:hasname       "A. Thomas" ;
+  geo:lat                45.4328 ;
+  geo:long               4.388035
+] .
