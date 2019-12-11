@@ -10,7 +10,7 @@ GENERATE {
     ontology:has_aviable_slot ?aviable_slot;
     ontology:has_last_update ?last_update;
     ontology:renting ?is_renting.
-  
+
   }
 
 SOURCE <https://saint-etienne-gbfs.klervi.net/gbfs/en/station_status.json> AS ?source
