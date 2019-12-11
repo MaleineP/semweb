@@ -12,28 +12,27 @@
 	    <h1>Bicycle Location</h1>
         
         <!-- tableau bootstrap -->
-        <div>
-	    	<table class="table">
-			  <thead class="thead-dark">
-			    <tr>
-			      <th scope="col">subject</th>
-			      <th scope="col">predicate</th>
-			      <th scope="col">object</th>
-			    </tr>
-			  </thead>
-			  <tbody th:each="station_stat: ${saint_etienne_static}" th:each="station_dyn: ${saint_etienne_dynamic}">
-			    <tr>
-			      <td th:text="${station_stat.subject}"></td>  
-			      <td th:text="${station_stat.predicate}"></td>
-			      <td th:text="${station_stat.object}"></td>
-			    </tr>
-			    <tr>
-			      <td th:text="${station_dyn.subject}"></td>  
-			      <td th:text="${station_dyn.predicate}"></td>
-			      <td th:text="${station_dyn.object}"></td>
-			    </tr>
-			  </tbody>
-			</table>
+        <div class="d-flex justify-content-between">
+        	<div class="p-2 bd-highlight">
+	    		<table class="table">
+				  <thead class="thead-dark">
+				    <tr>
+				      <th scope="col">predicate</th>
+				      <th scope="col">object</th>
+				    </tr>
+				  </thead>
+				  <tbody th:each="stations: ${saint_etienne}">
+				    <tr th:each="station: ${stations}">
+				      <td th:text="${station.predicate.localName}"></td>
+				      <td th:text="${station.object}"></td>
+				    </tr>
+				    <tr class="table-dark">
+				   	  <td ></td>
+				      <td ></td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>	
         </div>
     </body>
 </html>

@@ -2,6 +2,7 @@ package fr.emse.master.bicycle_location;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
@@ -31,17 +32,52 @@ public class MainController {
 		 * try { OWLOntology ontology = this.loadOntology(); } catch (OWLException e) {
 		 * e.printStackTrace(); }
 		 */
+
+		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
+
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
 
 		model_static.read("ttl_static.ttl");
 		model_dynamic.read("ttl_dynamic.ttl");
 
-		StmtIterator liste_dynamic = model_dynamic.listStatements();
-		StmtIterator liste_static = model_static.listStatements();
-		
-		m.addAttribute("saint_etienne_static", liste_static);
-		m.addAttribute("saint_etienne_dynamic", liste_dynamic);
+		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
+		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
+		ResIterator iter = model_static.listSubjects();
+		List<Resource> list_iter_static = iter.toList();
+		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
+
+		ArrayList<StmtIterator> saint_etienne = new ArrayList<StmtIterator>();
+
+		for (Resource subject : list_iter_static) {
+			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
+			liste_static.add(tmp);
+		}
+
+		for (Resource subject : list_iter_dynamic) {
+			StmtIterator tmp = model_dynamic.listStatements(subject, (Property) null, (RDFNode) null);
+			liste_dynamic.add(tmp);
+		}
+
+		Property hasId = model_static
+				.getProperty("http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id");
+		Property hasId_d = model_dynamic
+				.getProperty("http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id");
+
+		for (StmtIterator liste_stmt_static : liste_static) {
+			StmtIterator tmp = liste_stmt_static;
+			RDFNode id = tmp.toModel().listObjectsOfProperty(hasId).toList().get(0);
+			System.out.println(id);
+			for (StmtIterator liste_stmt_dynamic : liste_dynamic) {
+				StmtIterator tmp_bis = liste_stmt_dynamic;
+				if (id == tmp_bis.toModel().listObjectsOfProperty(hasId_d).toList().get(0)) {
+					saint_etienne.add((StmtIterator) liste_stmt_static.andThen(liste_stmt_dynamic));
+					break;
+				}
+			}
+		}
+
+		m.addAttribute("saint_etienne", saint_etienne);
 		return "index.html";
 	}
 
