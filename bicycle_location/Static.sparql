@@ -5,7 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#>
 
 GENERATE {
-  ?id a ontology:station;
+  [] a ontology:station;
+    ontology:has_id ?id;
     ontology:has_name ?name;
     ontology:has_capacity ?cap;
     geo:lat ?lat;
