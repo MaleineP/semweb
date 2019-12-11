@@ -1,0 +1,24 @@
+PREFIX fun: <http://w3id.org/sparql-generate/fn/>
+PREFIX iter: <http://w3id.org/sparql-generate/iter/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#>
+
+GENERATE {
+  [] a ontology:station;
+    ontology:has_id ?id;
+    ontology:has_available ?aviable_bike;
+    ontology:has_aviable_slot ?aviable_slot;
+    ontology:has_last_update ?last_update;
+    ontology:renting ?is_renting.
+
+  }
+
+SOURCE <https://saint-etienne-gbfs.klervi.net/gbfs/en/station_status.json> AS ?source
+ITERATOR iter:JSONPath(?source,"$.data.stations[*]") AS ?i
+WHERE{
+  BIND(xsd:integer(fun:JSONPath(?i,"$.station_id")) AS ?id)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.num_bikes_available")) AS ?aviable_bike)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.num_docks_available")) AS ?aviable_slot)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.last_reported")) AS ?last_update)
+  BIND(xsd:integer(fun:JSONPath(?i,"$.is_renting")) AS ?is_renting)
+  }
