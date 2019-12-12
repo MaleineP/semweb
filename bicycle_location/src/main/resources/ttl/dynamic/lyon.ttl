@@ -1,0 +1,4449 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+@prefix ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#> .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "4022" ;
+  ontology:has_last_update   "2019-12-12 19:09:41" ;
+  ontology:has_name          "Place de la Croix-Rousse" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7760751390863940" ;
+  geo:long                   "4.8325539207543908"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "5001" ;
+  ontology:has_last_update   "2019-12-12 19:16:04" ;
+  ontology:has_name          "Place Varillon (funiculaire Saint-Just)" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7573003219205030" ;
+  geo:long                   "4.8150900113095236"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "5008" ;
+  ontology:has_last_update   "2019-12-12 19:11:22" ;
+  ontology:has_name          "Sainte-Irénée" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7549458810740010" ;
+  geo:long                   "4.8124212248457434"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "10115" ;
+  ontology:has_last_update   "2019-12-12 19:14:26" ;
+  ontology:has_name          "Place d'Espagne / Stade Kruger" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7541767015908220" ;
+  geo:long                   "4.9052991893735278"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "25" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "9015" ;
+  ontology:has_last_update   "2019-12-12 19:07:28" ;
+  ontology:has_name          "Saint-Cyr" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7828282303757130" ;
+  geo:long                   "4.8072963588022786"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "1031" ;
+  ontology:has_last_update   "2019-12-12 19:12:53" ;
+  ontology:has_name          "Place de la Paix" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7680236126546520" ;
+  geo:long                   "4.8317412517184160"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "25" ;
+  ontology:has_id            "7049" ;
+  ontology:has_last_update   "2019-12-12 19:13:02" ;
+  ontology:has_name          "Cité Scolaire Internationale" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7279188576411290" ;
+  geo:long                   "4.8235600814059092"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "1020" ;
+  ontology:has_last_update   "2019-12-12 19:10:24" ;
+  ontology:has_name          "Terreaux / Chenavard" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7667671045630020" ;
+  geo:long                   "4.8329314879659684"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "30" ;
+  ontology:has_id            "3094" ;
+  ontology:has_last_update   "2019-12-12 19:12:29" ;
+  ontology:has_name          "Villette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7577645564235310" ;
+  geo:long                   "4.8614965859401122"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "6021" ;
+  ontology:has_last_update   "2019-12-12 19:16:45" ;
+  ontology:has_name          "Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7706974838463410" ;
+  geo:long                   "4.8499357293643790"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "8029" ;
+  ontology:has_last_update   "2019-12-12 19:13:56" ;
+  ontology:has_name          "Etats-Unis / Lévigne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7322180106596860" ;
+  geo:long                   "4.8651415367367150"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "10080" ;
+  ontology:has_last_update   "2019-12-12 19:10:25" ;
+  ontology:has_name          "Vaillant / Perroncel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7753988102813590" ;
+  geo:long                   "4.8802630912578131"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "6036" ;
+  ontology:has_last_update   "2019-12-12 19:15:56" ;
+  ontology:has_name          "Musée d'art contemporain" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7838816142830540" ;
+  geo:long                   "4.8521404034163993"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "3088" ;
+  ontology:has_last_update   "2019-12-12 19:16:47" ;
+  ontology:has_name          "Place Guichard" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7588252495330470" ;
+  geo:long                   "4.8465386095114376"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10061" ;
+  ontology:has_last_update   "2019-12-12 19:12:32" ;
+  ontology:has_name          "République" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7707838400683830" ;
+  geo:long                   "4.8729593888672902"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "2012" ;
+  ontology:has_last_update   "2019-12-12 19:15:12" ;
+  ontology:has_name          "Gailleton" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7534549142114390" ;
+  geo:long                   "4.8333538439572381"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "6008" ;
+  ontology:has_last_update   "2019-12-12 19:17:17" ;
+  ontology:has_name          "Place Jules Ferry" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7684122613764610" ;
+  geo:long                   "4.8590705567383443"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "2024" ;
+  ontology:has_last_update   "2019-12-12 19:16:39" ;
+  ontology:has_name          "République / Maupin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7587390821938480" ;
+  geo:long                   "4.8340765154131455"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "16002" ;
+  ontology:has_last_update   "2019-12-12 19:11:13" ;
+  ontology:has_name          "Vénissieux - Levy / Vienne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7193988058185000" ;
+  geo:long                   "4.8548015762351051"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "7023" ;
+  ontology:has_last_update   "2019-12-12 19:16:11" ;
+  ontology:has_name          "Berthelot / Route de Vienne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7426537617282920" ;
+  geo:long                   "4.8505369714596656"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "3043" ;
+  ontology:has_last_update   "2019-12-12 19:13:55" ;
+  ontology:has_name          "Place Rouget de L'Isle" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7539631929670630" ;
+  geo:long                   "4.8673532946259153"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "9009" ;
+  ontology:has_last_update   "2019-12-12 19:11:44" ;
+  ontology:has_name          "Berlioz / Chalinel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8011198081158210" ;
+  geo:long                   "4.8252725616689833"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8057" ;
+  ontology:has_last_update   "2019-12-12 19:16:57" ;
+  ontology:has_name          "Vienne  / Montagny" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7323603634356320" ;
+  geo:long                   "4.8534202156019024"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "10060" ;
+  ontology:has_last_update   "2019-12-12 19:08:10" ;
+  ontology:has_name          "Saint Exupéry" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7588589710478640" ;
+  geo:long                   "4.8787495764625985"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7011" ;
+  ontology:has_last_update   "2019-12-12 19:17:14" ;
+  ontology:has_name          "Berthelot / Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7437195253426760" ;
+  geo:long                   "4.8472752679987110"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "22" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "2010" ;
+  ontology:has_last_update   "2019-12-12 19:13:36" ;
+  ontology:has_name          "Confluence / Darse" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7434140947079870" ;
+  geo:long                   "4.8158543610390252"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "3006" ;
+  ontology:has_last_update   "2019-12-12 19:14:05" ;
+  ontology:has_name          "Villette / Saint-Antoine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7628598508923400" ;
+  geo:long                   "4.8622869000871978"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "8007" ;
+  ontology:has_last_update   "2019-12-12 19:16:55" ;
+  ontology:has_name          "Frères Lumière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7450174320831950" ;
+  geo:long                   "4.8664523172668295"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "28" ;
+  ontology:has_id            "10001" ;
+  ontology:has_last_update   "2019-12-12 19:16:19" ;
+  ontology:has_name          "IUT / Feyssine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7856324623544990" ;
+  geo:long                   "4.8824104015349032"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10071" ;
+  ontology:has_last_update   "2019-12-12 19:10:02" ;
+  ontology:has_name          "Lycée Marie Curie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7615279698755510" ;
+  geo:long                   "4.8956902199613603"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "10046" ;
+  ontology:has_last_update   "2019-12-12 19:16:51" ;
+  ontology:has_name          "Charmettes / Zola" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7707297451097760" ;
+  geo:long                   "4.8673418461692233"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "29" ;
+  ontology:has_id            "6002" ;
+  ontology:has_last_update   "2019-12-12 19:11:28" ;
+  ontology:has_name          "Porte des Enfants du Rhône" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7774932959538890" ;
+  geo:long                   "4.8448707260176658"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "5005" ;
+  ontology:has_last_update   "2019-12-12 19:11:59" ;
+  ontology:has_name          "Saint-Paul" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7662717372985600" ;
+  geo:long                   "4.8274321226910386"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "29" ;
+  ontology:has_id            "5030" ;
+  ontology:has_last_update   "2019-12-12 19:14:19" ;
+  ontology:has_name          "Charcot / Résidence universitaire" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7550310886452610" ;
+  geo:long                   "4.8077850541519442"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "1034" ;
+  ontology:has_last_update   "2019-12-12 19:16:57" ;
+  ontology:has_name          "Carmélites" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7700015740910830" ;
+  geo:long                   "4.8292695053207497"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "4024" ;
+  ontology:has_last_update   "2019-12-12 19:07:40" ;
+  ontology:has_name          "Lyon Métropole" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7881700188236560" ;
+  geo:long                   "4.8185602866725281"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "5009" ;
+  ontology:has_last_update   "2019-12-12 19:11:50" ;
+  ontology:has_name          "Place Ennemond Fousseret" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7646815056712270" ;
+  geo:long                   "4.8289833265225157"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "7046" ;
+  ontology:has_last_update   "2019-12-12 19:13:16" ;
+  ontology:has_name          "Place de l'Ecole" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7300799170408610" ;
+  geo:long                   "4.8278229564284700"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "9003" ;
+  ontology:has_last_update   "2019-12-12 19:13:22" ;
+  ontology:has_name          "Place Valmy" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7756749996432220" ;
+  geo:long                   "4.8053036651209080"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "6005" ;
+  ontology:has_last_update   "2019-12-12 19:07:32" ;
+  ontology:has_name          "Place Edgar Quinet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7657655924629200" ;
+  geo:long                   "4.8447318928504437"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "5047" ;
+  ontology:has_last_update   "2019-12-12 19:08:29" ;
+  ontology:has_name          "Albéric Pont" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7534443435600410" ;
+  geo:long                   "4.8044009888454049"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "1016" ;
+  ontology:has_last_update   "2019-12-12 19:16:32" ;
+  ontology:has_name          "Pêcherie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7659547300349490" ;
+  geo:long                   "4.8311781246444845"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "8055" ;
+  ontology:has_last_update   "2019-12-12 19:14:24" ;
+  ontology:has_name          "Saint-Romain / Berliet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7423325983951800" ;
+  geo:long                   "4.8603433259917148"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "21" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "1012" ;
+  ontology:has_last_update   "2019-12-12 19:17:23" ;
+  ontology:has_name          "Ampère / Bourse" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7658113822040560" ;
+  geo:long                   "4.8368957414205633"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "20" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10031" ;
+  ontology:has_last_update   "2019-12-12 19:15:01" ;
+  ontology:has_name          "Croix Luizet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7807198477544190" ;
+  geo:long                   "4.8834995751426700"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10120" ;
+  ontology:has_last_update   "2019-12-12 19:12:26" ;
+  ontology:has_name          "Salengro / Descartes" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7762517515064500" ;
+  geo:long                   "4.8716291781443655"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "10072" ;
+  ontology:has_last_update   "2019-12-12 19:17:06" ;
+  ontology:has_name          "Jacques Brel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7742255397182520" ;
+  geo:long                   "4.8642860657508757"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "10089" ;
+  ontology:has_last_update   "2019-12-12 19:13:39" ;
+  ontology:has_name          "Colin / Perroncel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7744984646734280" ;
+  geo:long                   "4.8740523266943319"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "20003" ;
+  ontology:has_last_update   "2019-12-12 19:10:56" ;
+  ontology:has_name          "Oullins - Pont Blanc" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7201577769260510" ;
+  geo:long                   "4.7983317319214027"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "29" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "10006" ;
+  ontology:has_last_update   "2019-12-12 19:16:08" ;
+  ontology:has_name          "Charpennes" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7702267691493530" ;
+  geo:long                   "4.8631327223602243"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8003" ;
+  ontology:has_last_update   "2019-12-12 19:09:36" ;
+  ontology:has_name          "Claude Bernard Lyon I" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7381400560294940" ;
+  geo:long                   "4.8868803087115333"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "8011" ;
+  ontology:has_last_update   "2019-12-12 19:07:35" ;
+  ontology:has_name          "Place Lebret" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7356139906482110" ;
+  geo:long                   "4.8529965568657403"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "3089" ;
+  ontology:has_last_update   "2019-12-12 19:10:51" ;
+  ontology:has_name          "Trarieux / Lacassagne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7453145927333720" ;
+  geo:long                   "4.8889645723972111"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "34002" ;
+  ontology:has_last_update   "2019-12-12 19:09:48" ;
+  ontology:has_name          "Neuville - Stade" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8708762461699210" ;
+  geo:long                   "4.8395985373186363"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "1006" ;
+  ontology:has_last_update   "2019-12-12 19:13:43" ;
+  ontology:has_name          "Subsistances" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7678957694769370" ;
+  geo:long                   "4.8198166574203691"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "8004" ;
+  ontology:has_last_update   "2019-12-12 19:16:02" ;
+  ontology:has_name          "Mairie du 8e" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7351509957904980" ;
+  geo:long                   "4.8728173875360472"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "23001" ;
+  ontology:has_last_update   "2019-12-12 19:08:36" ;
+  ontology:has_name          "Tassin - Tuileries" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7632560325953860" ;
+  geo:long                   "4.7786100656705530"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "5026" ;
+  ontology:has_last_update   "2019-12-12 19:09:00" ;
+  ontology:has_name          "Rue de la Baleine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7633837102434310" ;
+  geo:long                   "4.8290114774217887"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "9004" ;
+  ontology:has_last_update   "2019-12-12 19:15:40" ;
+  ontology:has_name          "Gare de Vaise" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7797819839255380" ;
+  geo:long                   "4.8046653309593905"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "3085" ;
+  ontology:has_last_update   "2019-12-12 19:15:18" ;
+  ontology:has_name          "Sacré Coeur" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7578296698746030" ;
+  geo:long                   "4.8683950401971430"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "3038" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Vivier Merle / Paul Bert" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7573307386789660" ;
+  geo:long                   "4.8589349649959805"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "25" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2014" ;
+  ontology:has_last_update   "2019-12-12 19:12:46" ;
+  ontology:has_name          "Jacobins" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7607516950581540" ;
+  geo:long                   "4.8343042285358893"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "1005" ;
+  ontology:has_last_update   "2019-12-12 19:10:12" ;
+  ontology:has_name          "Meissonier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7660850668591980" ;
+  geo:long                   "4.8328335830568179"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "52" ;
+  ontology:has_id            "3011" ;
+  ontology:has_last_update   "2019-12-12 19:16:41" ;
+  ontology:has_name          "Part-Dieu / Cuirassiers" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7598976512354200" ;
+  geo:long                   "4.8575730314142138"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "8009" ;
+  ontology:has_last_update   "2019-12-12 19:17:19" ;
+  ontology:has_name          "Jean XXIII / Mermoz" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7364796056891410" ;
+  geo:long                   "4.8698054320071753"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "5036" ;
+  ontology:has_last_update   "2019-12-12 19:14:35" ;
+  ontology:has_name          "La Salette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7496868148719000" ;
+  geo:long                   "4.7956106152696716"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "7041" ;
+  ontology:has_last_update   "2019-12-12 19:13:27" ;
+  ontology:has_name          "Domer / Chevreul" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7466748285384950" ;
+  geo:long                   "4.8444434656856057"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "6040" ;
+  ontology:has_last_update   "2019-12-12 19:15:36" ;
+  ontology:has_name          "Les Halles" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7640576127189080" ;
+  geo:long                   "4.8499305460757522"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "6020" ;
+  ontology:has_last_update   "2019-12-12 19:11:18" ;
+  ontology:has_name          "Musée Guimet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7745048729892690" ;
+  geo:long                   "4.8484771018513761"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "27" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7004" ;
+  ontology:has_last_update   "2019-12-12 19:16:01" ;
+  ontology:has_name          "Mairie du 7e" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7465601730305520" ;
+  geo:long                   "4.8423412580916123"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "10004" ;
+  ontology:has_last_update   "2019-12-12 19:08:13" ;
+  ontology:has_name          "Tonkin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7762210147081350" ;
+  geo:long                   "4.8626475813297994"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "10114" ;
+  ontology:has_last_update   "2019-12-12 19:09:19" ;
+  ontology:has_name          "Bel Air / Les Brosses" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7579070732360900" ;
+  geo:long                   "4.9108067086686678"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "8061" ;
+  ontology:has_last_update   "2019-12-12 19:07:26" ;
+  ontology:has_name          "Stade Vuillermet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7254037172007980" ;
+  geo:long                   "4.8812948922096577"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "10007" ;
+  ontology:has_last_update   "2019-12-12 19:10:56" ;
+  ontology:has_name          "Piaton / Condorcet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7742151784181320" ;
+  geo:long                   "4.8675042131350823"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "8039" ;
+  ontology:has_last_update   "2019-12-12 19:09:58" ;
+  ontology:has_name          "Pierre Delore" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7387410923419680" ;
+  geo:long                   "4.8522860109415236"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "9013" ;
+  ontology:has_last_update   "2019-12-12 19:13:00" ;
+  ontology:has_name          "Quai Paul Sédaillan" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7875097567311830" ;
+  geo:long                   "4.8144211278496751"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "3079" ;
+  ontology:has_last_update   "2019-12-12 19:09:54" ;
+  ontology:has_name          "Place Louise" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7512052508819170" ;
+  geo:long                   "4.8848204636500698"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "20" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "11005" ;
+  ontology:has_last_update   "2019-12-12 19:09:00" ;
+  ontology:has_name          "Caluire - Passerelle de la Paix" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7879516402910550" ;
+  geo:long                   "4.8530543333992187"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "10110" ;
+  ontology:has_last_update   "2019-12-12 19:17:21" ;
+  ontology:has_name          "Mémoire et Société" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7595776564178540" ;
+  geo:long                   "4.8827081207421843"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "2004" ;
+  ontology:has_last_update   "2019-12-12 19:17:22" ;
+  ontology:has_name          "Perrache / Carnot" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7500996433260670" ;
+  geo:long                   "4.8280515013551550"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "3012" ;
+  ontology:has_last_update   "2019-12-12 19:15:58" ;
+  ontology:has_name          "Place du Château" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7495170788471200" ;
+  geo:long                   "4.8872857232192937"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "6045" ;
+  ontology:has_last_update   "2019-12-12 19:16:51" ;
+  ontology:has_name          "Brotteaux / Vauban" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7663673112669610" ;
+  geo:long                   "4.8570018759142295"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "4003" ;
+  ontology:has_last_update   "2019-12-12 19:15:35" ;
+  ontology:has_name          "Place Commandant Arnaud" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7797251519675610" ;
+  geo:long                   "4.8347072824510775"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "2041" ;
+  ontology:has_last_update   "2019-12-12 19:15:10" ;
+  ontology:has_name          "Sala / Charité" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7544732763091350" ;
+  geo:long                   "4.8330110846859418"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "7061" ;
+  ontology:has_last_update   "2019-12-12 19:17:09" ;
+  ontology:has_name          "Jaurès / Université" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7485374331787540" ;
+  geo:long                   "4.8432493337468063"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "2003" ;
+  ontology:has_last_update   "2019-12-12 19:15:16" ;
+  ontology:has_name          "Place Ampère" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7530437074095100" ;
+  geo:long                   "4.8282672826226927"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "27" ;
+  ontology:has_id            "3007" ;
+  ontology:has_last_update   "2019-12-12 19:08:34" ;
+  ontology:has_name          "Place d'Arsonval" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7434416841709890" ;
+  geo:long                   "4.8789031261753726"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "6001" ;
+  ontology:has_last_update   "2019-12-12 19:15:59" ;
+  ontology:has_name          "Gare des Brotteaux" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7669095802662650" ;
+  geo:long                   "4.8589921673125618"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "10013" ;
+  ontology:has_last_update   "2019-12-12 19:15:42" ;
+  ontology:has_name          "Cusset" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7650422669277150" ;
+  geo:long                   "4.9011328928202982"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "2036" ;
+  ontology:has_last_update   "2019-12-12 19:07:36" ;
+  ontology:has_name          "Place Antonin Gourju" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7594863490351000" ;
+  geo:long                   "4.8301699554160633"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3087" ;
+  ontology:has_last_update   "2019-12-12 19:15:05" ;
+  ontology:has_name          "Part-Dieu / Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7627511569952010" ;
+  geo:long                   "4.8524277723450728"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "2021" ;
+  ontology:has_last_update   "2019-12-12 19:16:36" ;
+  ontology:has_name          "Bayard / Rambaud" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7459165775636120" ;
+  geo:long                   "4.8171736085201431"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "33001" ;
+  ontology:has_last_update   "2019-12-12 19:07:55" ;
+  ontology:has_name          "Albigny - Gare" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8749934925375340" ;
+  geo:long                   "4.8330021360822784"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "8040" ;
+  ontology:has_last_update   "2019-12-12 19:11:50" ;
+  ontology:has_name          "Ambroise Paré" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7362404944940690" ;
+  geo:long                   "4.8837368262130560"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "10024" ;
+  ontology:has_last_update   "2019-12-12 19:13:31" ;
+  ontology:has_name          "Maisons Neuves" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7559510292356110" ;
+  geo:long                   "4.8773464298740201"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "3080" ;
+  ontology:has_last_update   "2019-12-12 19:16:41" ;
+  ontology:has_name          "Part-Dieu / Villette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7600550578148390" ;
+  geo:long                   "4.8616738805899402"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "6016" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Viabert / Thiers" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7659879833823520" ;
+  geo:long                   "4.8620922782007510"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "7014" ;
+  ontology:has_last_update   "2019-12-12 19:14:46" ;
+  ontology:has_name          "Marseille / Félissent" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7529863435116080" ;
+  geo:long                   "4.8414152874617793"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "8020" ;
+  ontology:has_last_update   "2019-12-12 19:14:39" ;
+  ontology:has_name          "Moulin à Vent" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7296761340645830" ;
+  geo:long                   "4.8541819412364093"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "8051" ;
+  ontology:has_last_update   "2019-12-12 19:10:33" ;
+  ontology:has_name          "Hôpital Saint-Jean de Dieu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7242705028889130" ;
+  geo:long                   "4.8541521271275219"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "18" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3029" ;
+  ontology:has_last_update   "2019-12-12 19:17:00" ;
+  ontology:has_name          "Place Aristide Briand" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7530043530220990" ;
+  geo:long                   "4.8502474272199692"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "3035" ;
+  ontology:has_last_update   "2019-12-12 19:16:10" ;
+  ontology:has_name          "Philomène Magnin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7526125818453550" ;
+  geo:long                   "4.8587710033051472"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "1013" ;
+  ontology:has_last_update   "2019-12-12 19:15:04" ;
+  ontology:has_name          "Martinière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7682183165921970" ;
+  geo:long                   "4.8276217044711549"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10116" ;
+  ontology:has_last_update   "2019-12-12 19:11:50" ;
+  ontology:has_name          "Blum / Faÿs" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7605212388028870" ;
+  geo:long                   "4.9059454396164748"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "3051" ;
+  ontology:has_last_update   "2019-12-12 19:07:42" ;
+  ontology:has_name          "Place Henri" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7481869061751420" ;
+  geo:long                   "4.8805939581712154"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "2030" ;
+  ontology:has_last_update   "2019-12-12 19:11:05" ;
+  ontology:has_name          "République / Poulaillerie" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7640723503116150" ;
+  geo:long                   "4.8355253578885975"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "9022" ;
+  ontology:has_last_update   "2019-12-12 19:17:22" ;
+  ontology:has_name          "Masaryk / Saint-Cyr" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7786288989070300" ;
+  geo:long                   "4.8071200280976578"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "28" ;
+  ontology:has_id            "7035" ;
+  ontology:has_last_update   "2019-12-12 19:15:58" ;
+  ontology:has_name          "Marseille / Université" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7509549511840560" ;
+  geo:long                   "4.8392671207183300"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "10079" ;
+  ontology:has_last_update   "2019-12-12 19:14:59" ;
+  ontology:has_name          "Anatole France / Barbusse" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7681304002299290" ;
+  geo:long                   "4.8791614891381103"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "10059" ;
+  ontology:has_last_update   "2019-12-12 19:12:18" ;
+  ontology:has_name          "Anatole France / Zola" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7688763179066740" ;
+  geo:long                   "4.8842415132426114"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "10021" ;
+  ontology:has_last_update   "2019-12-12 19:15:36" ;
+  ontology:has_name          "GrandClément" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7597183207295690" ;
+  geo:long                   "4.8899469363178758"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "2011" ;
+  ontology:has_last_update   "2019-12-12 19:09:48" ;
+  ontology:has_name          "Sala / Rue du Plat" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7568084876169440" ;
+  geo:long                   "4.8283743801395120"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "3101" ;
+  ontology:has_last_update   "2019-12-12 19:12:59" ;
+  ontology:has_name          "Patinoire Baraban" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7620516689039150" ;
+  geo:long                   "4.8685003507160687"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "1001" ;
+  ontology:has_last_update   "2019-12-12 19:16:41" ;
+  ontology:has_name          "Terreaux / Terme" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7677346863698560" ;
+  geo:long                   "4.8321350621908303"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "18" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "10018" ;
+  ontology:has_last_update   "2019-12-12 19:17:20" ;
+  ontology:has_name          "Tolstoï / Florian" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7618051903302860" ;
+  geo:long                   "4.8807224046277389"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "36" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "3097" ;
+  ontology:has_last_update   "2019-12-12 19:17:23" ;
+  ontology:has_name          "Augagneur / Fosse aux Ours" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7571997023265380" ;
+  geo:long                   "4.8404991375424880"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "26" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10027" ;
+  ontology:has_last_update   "2019-12-12 19:10:40" ;
+  ontology:has_name          "Mairie de Villeurbanne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7668306064525150" ;
+  geo:long                   "4.8798938672774597"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "10073" ;
+  ontology:has_last_update   "2019-12-12 19:13:31" ;
+  ontology:has_name          "Institut d'Art contemporain" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7614496449619350" ;
+  geo:long                   "4.8724655049634791"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "8021" ;
+  ontology:has_last_update   "2019-12-12 19:09:54" ;
+  ontology:has_name          "Paul Santy" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7285181510160830" ;
+  geo:long                   "4.8773059343942400"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "10122" ;
+  ontology:has_last_update   "2019-12-12 19:13:21" ;
+  ontology:has_name          "Verdun / Desgrand" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7840513436847370" ;
+  geo:long                   "4.8970859241187767"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "2009" ;
+  ontology:has_last_update   "2019-12-12 19:10:50" ;
+  ontology:has_name          "Confluence / Docks" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7396275873331040" ;
+  geo:long                   "4.8150259306438121"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "6011" ;
+  ontology:has_last_update   "2019-12-12 19:16:41" ;
+  ontology:has_name          "Mairie du 6e" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7684041683728250" ;
+  geo:long                   "4.8494967237845854"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "24" ;
+  ontology:has_id            "3081" ;
+  ontology:has_last_update   "2019-12-12 19:12:11" ;
+  ontology:has_name          "Part-Dieu / Francfort" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7606085556441120" ;
+  geo:long                   "4.8630862498286334"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "10034" ;
+  ontology:has_last_update   "2019-12-12 19:10:58" ;
+  ontology:has_name          "Docteur Damidot" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7617882849687090" ;
+  geo:long                   "4.8861572848566013"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10016" ;
+  ontology:has_last_update   "2019-12-12 19:17:09" ;
+  ontology:has_name          "Place de la paix" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7520997282193140" ;
+  geo:long                   "4.9146430086846324"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "18001" ;
+  ontology:has_last_update   "2019-12-12 19:08:17" ;
+  ontology:has_name          "Pierre Bénite - Europe" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7032558571012330" ;
+  geo:long                   "4.8212003761276776"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "1035" ;
+  ontology:has_last_update   "2019-12-12 19:17:04" ;
+  ontology:has_name          "Quai Lassagne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7722014692572260" ;
+  geo:long                   "4.8379117929264730"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "7062" ;
+  ontology:has_last_update   "2019-12-12 19:16:43" ;
+  ontology:has_name          "Garibaldi / Domer" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7477327368804790" ;
+  geo:long                   "4.8516273700582797"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10091" ;
+  ontology:has_last_update   "2019-12-12 19:14:00" ;
+  ontology:has_name          "Château Gaillard / Fort" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7747507993117250" ;
+  geo:long                   "4.8880387408797779"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "24" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7052" ;
+  ontology:has_last_update   "2019-12-12 19:15:33" ;
+  ontology:has_name          "Parc Blandan" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7459637288850090" ;
+  geo:long                   "4.8511961077823749"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "5032" ;
+  ontology:has_last_update   "2019-12-12 19:14:07" ;
+  ontology:has_name          "Ménival / Eisenhower" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7567027351715510" ;
+  geo:long                   "4.7831510682805529"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "7034" ;
+  ontology:has_last_update   "2019-12-12 19:16:40" ;
+  ontology:has_name          "Piscine du Rhône" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7536107053595200" ;
+  geo:long                   "4.8382209724032039"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10035" ;
+  ontology:has_last_update   "2019-12-12 19:08:48" ;
+  ontology:has_name          "Boiron Grangé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7631587956905860" ;
+  geo:long                   "4.9004795303651321"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "5053" ;
+  ontology:has_last_update   "2019-12-12 19:16:56" ;
+  ontology:has_name          "Saint-Just" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7559666422450850" ;
+  geo:long                   "4.8189064482919699"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7012" ;
+  ontology:has_last_update   "2019-12-12 19:10:36" ;
+  ontology:has_name          "Place des Pavillons" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7295008043116340" ;
+  geo:long                   "4.8297016085827407"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "27" ;
+  ontology:has_id            "10005" ;
+  ontology:has_last_update   "2019-12-12 19:16:26" ;
+  ontology:has_name          "11 novembre" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7797016132489390" ;
+  geo:long                   "4.8599911609956870"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "4011" ;
+  ontology:has_last_update   "2019-12-12 19:11:05" ;
+  ontology:has_name          "Place Joannès Ambre" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7815755185206110" ;
+  geo:long                   "4.8328577220510196"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "20" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "3021" ;
+  ontology:has_last_update   "2019-12-12 19:16:57" ;
+  ontology:has_name          "Place de la Ferrandière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7594733965948140" ;
+  geo:long                   "4.8693428966594272"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "11003" ;
+  ontology:has_last_update   "2019-12-12 19:14:01" ;
+  ontology:has_name          "Caluire - La Rochette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7916701826039940" ;
+  geo:long                   "4.8235970239637442"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "4014" ;
+  ontology:has_last_update   "2019-12-12 19:13:13" ;
+  ontology:has_name          "Philippe de Lassalle / Pillement" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7774206479390600" ;
+  geo:long                   "4.8205384707114511"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "6039" ;
+  ontology:has_last_update   "2019-12-12 19:15:41" ;
+  ontology:has_name          "Garibaldi / Vauban" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7666921938824130" ;
+  geo:long                   "4.8520859812468151"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "7024" ;
+  ontology:has_last_update   "2019-12-12 19:14:44" ;
+  ontology:has_name          "Bancel / Chevreul" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7485202867305600" ;
+  geo:long                   "4.8405245716725132"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "7009" ;
+  ontology:has_last_update   "2019-12-12 19:17:16" ;
+  ontology:has_name          "Jean Jaurès" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7375180973509360" ;
+  geo:long                   "4.8375089199170214"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "8037" ;
+  ontology:has_last_update   "2019-12-12 19:11:42" ;
+  ontology:has_name          "Cazeneuve" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7340200917966370" ;
+  geo:long                   "4.8629023792941544"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "6031" ;
+  ontology:has_last_update   "2019-12-12 19:13:46" ;
+  ontology:has_name          "Lafayette / Corneille" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7637594783418750" ;
+  geo:long                   "4.8437773405191873"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "10054" ;
+  ontology:has_last_update   "2019-12-12 19:12:19" ;
+  ontology:has_name          "Stalingrad / Meliès" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7767057578019490" ;
+  geo:long                   "4.8595233537915794"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "17001" ;
+  ontology:has_last_update   "2019-12-12 19:16:50" ;
+  ontology:has_name          "St Fons - Arsenal" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7123448014944390" ;
+  geo:long                   "4.8552741231339969"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7039" ;
+  ontology:has_last_update   "2019-12-12 19:16:36" ;
+  ontology:has_name          "Guillotière / Madeleine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7510565465262080" ;
+  geo:long                   "4.8480482303453218"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "5031" ;
+  ontology:has_last_update   "2019-12-12 19:07:26" ;
+  ontology:has_name          "Ménival / Joliot Curie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7546405115265320" ;
+  geo:long                   "4.7881488839855884"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "7021" ;
+  ontology:has_last_update   "2019-12-12 19:14:03" ;
+  ontology:has_name          "Challemel Lacour / Gerland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7298058652087600" ;
+  geo:long                   "4.8381384383404171"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "10112" ;
+  ontology:has_last_update   "2019-12-12 19:16:52" ;
+  ontology:has_name          "Place de la Reconnaissance" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7544402430766440" ;
+  geo:long                   "4.8853489189380230"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "3058" ;
+  ontology:has_last_update   "2019-12-12 19:10:00" ;
+  ontology:has_name          "Place du Lac" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7588856223001270" ;
+  geo:long                   "4.8537678938544726"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "35" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "20001" ;
+  ontology:has_last_update   "2019-12-12 19:16:04" ;
+  ontology:has_name          "Oullins - Gare" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7170299434914180" ;
+  geo:long                   "4.8141359805783805"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "6022" ;
+  ontology:has_last_update   "2019-12-12 19:13:18" ;
+  ontology:has_name          "Place Maréchal Lyautey" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7693730577565390" ;
+  geo:long                   "4.8423179538871635"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "28002" ;
+  ontology:has_last_update   "2019-12-12 19:09:12" ;
+  ontology:has_name          "Fontaines s/S - Gambetta" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8354059997715170" ;
+  geo:long                   "4.8457000001885611"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "9049" ;
+  ontology:has_last_update   "2019-12-12 19:09:57" ;
+  ontology:has_name          "Sergent Berthet / Gorge de Loup" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7701340720176050" ;
+  geo:long                   "4.8051580030149461"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "10008" ;
+  ontology:has_last_update   "2019-12-12 19:15:44" ;
+  ontology:has_name          "Salengro / Vaillant" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7783682080048780" ;
+  geo:long                   "4.8796732813004162"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "3083" ;
+  ontology:has_last_update   "2019-12-12 19:12:33" ;
+  ontology:has_name          "Les Halles" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7615189274364060" ;
+  geo:long                   "4.8504862573912657"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "6032" ;
+  ontology:has_last_update   "2019-12-12 19:14:13" ;
+  ontology:has_name          "Préfecture / Sarrail" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7648582723532300" ;
+  geo:long                   "4.8415654714910223"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "2001" ;
+  ontology:has_last_update   "2019-12-12 19:16:17" ;
+  ontology:has_name          "Bellecour / République" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7579850990088130" ;
+  geo:long                   "4.8345938219838454"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "3008" ;
+  ontology:has_last_update   "2019-12-12 19:13:35" ;
+  ontology:has_name          "Institut Lumière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7458332337286610" ;
+  geo:long                   "4.8706387106502866"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "8041" ;
+  ontology:has_last_update   "2019-12-12 19:11:56" ;
+  ontology:has_name          "Etats-Unis / Viviani" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7247162655050090" ;
+  geo:long                   "4.8708316547687760"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "3100" ;
+  ontology:has_last_update   "2019-12-12 19:14:45" ;
+  ontology:has_name          "Sisley / Dauphiné" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7528275113150610" ;
+  geo:long                   "4.8687687708041860"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "8058" ;
+  ontology:has_last_update   "2019-12-12 19:17:14" ;
+  ontology:has_name          "Longefer / Kruger" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7386678839509320" ;
+  geo:long                   "4.8781309055528315"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "4002" ;
+  ontology:has_last_update   "2019-12-12 19:17:00" ;
+  ontology:has_name          "Mairie du 4e" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7742004406999570" ;
+  geo:long                   "4.8277652218641753"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "20" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "7020" ;
+  ontology:has_last_update   "2019-12-12 19:12:48" ;
+  ontology:has_name          "Parc de Gerland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7243483551230130" ;
+  geo:long                   "4.8268214305884181"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8008" ;
+  ontology:has_last_update   "2019-12-12 19:14:15" ;
+  ontology:has_name          "Beauvisage / Préssensé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7278718558835000" ;
+  geo:long                   "4.8634420589052638"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "5054" ;
+  ontology:has_last_update   "2019-12-12 19:14:49" ;
+  ontology:has_name          "Champvert" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7638977674247510" ;
+  geo:long                   "4.7927143081079864"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "9051" ;
+  ontology:has_last_update   "2019-12-12 19:15:59" ;
+  ontology:has_name          "Andréi Sakharov" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7865247393491330" ;
+  geo:long                   "4.7970709023310114"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "5029" ;
+  ontology:has_last_update   "2019-12-12 19:16:50" ;
+  ontology:has_name          "Place Gerson" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7670544551410640" ;
+  geo:long                   "4.8270475070640995"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "10086" ;
+  ontology:has_last_update   "2019-12-12 19:13:42" ;
+  ontology:has_name          "Anatole France" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7698360005897630" ;
+  geo:long                   "4.8895260857893161"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "10088" ;
+  ontology:has_last_update   "2019-12-12 19:09:13" ;
+  ontology:has_name          "4 août 1789 / Pressensé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7660587436588950" ;
+  geo:long                   "4.8987031427962373"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "9008" ;
+  ontology:has_last_update   "2019-12-12 19:15:05" ;
+  ontology:has_name          "L'Ile Barbe" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7974121962714450" ;
+  geo:long                   "4.8290463533634593"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "6012" ;
+  ontology:has_last_update   "2019-12-12 19:17:11" ;
+  ontology:has_name          "Place Puvis de Chavannes" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7717570855733980" ;
+  geo:long                   "4.8446036357483555"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "5007" ;
+  ontology:has_last_update   "2019-12-12 19:16:04" ;
+  ontology:has_name          "Place de Trion" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7579063089064060" ;
+  geo:long                   "4.8131349528107474"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "9020" ;
+  ontology:has_last_update   "2019-12-12 19:11:20" ;
+  ontology:has_name          "Bourbonnais" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7734645659819610" ;
+  geo:long                   "4.8002879293936394"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "9041" ;
+  ontology:has_last_update   "2019-12-12 19:15:08" ;
+  ontology:has_name          "Carret / Sédaillan" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7924777385859370" ;
+  geo:long                   "4.8205782575315625"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7007" ;
+  ontology:has_last_update   "2019-12-12 19:11:45" ;
+  ontology:has_name          "Farge / Ayasse" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7356738897811970" ;
+  geo:long                   "4.8277191559612227"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3091" ;
+  ontology:has_last_update   "2019-12-12 19:14:50" ;
+  ontology:has_name          "Hôpital Neurologique" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7481832938431690" ;
+  geo:long                   "4.8969570575460013"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "27" ;
+  ontology:has_id            "6037" ;
+  ontology:has_last_update   "2019-12-12 19:13:46" ;
+  ontology:has_name          "Cité Internationale / Interpol" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7823061128328350" ;
+  geo:long                   "4.8493439808167293"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "7016" ;
+  ontology:has_last_update   "2019-12-12 19:15:13" ;
+  ontology:has_name          "Place Saint Louis" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7490037273034530" ;
+  geo:long                   "4.8476441418616316"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "16004" ;
+  ontology:has_last_update   "2019-12-12 19:14:18" ;
+  ontology:has_name          "Vénissieux - Parilly" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7197257725656600" ;
+  geo:long                   "4.8891375782826278"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8038" ;
+  ontology:has_last_update   "2019-12-12 19:15:54" ;
+  ontology:has_name          "Albert Thomas / Villon" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7467163314946890" ;
+  geo:long                   "4.8674286445260062"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "6007" ;
+  ontology:has_last_update   "2019-12-12 19:15:18" ;
+  ontology:has_name          "Masséna" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7696721806905060" ;
+  geo:long                   "4.8523652715024763"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10074" ;
+  ontology:has_last_update   "2019-12-12 19:15:28" ;
+  ontology:has_name          "Zola / Passage Rey" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7700978432658230" ;
+  geo:long                   "4.8766904175328012"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2016" ;
+  ontology:has_last_update   "2019-12-12 19:17:14" ;
+  ontology:has_name          "Place Regaud" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7630769295669990" ;
+  geo:long                   "4.8342866883470439"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "28001" ;
+  ontology:has_last_update   "2019-12-12 19:09:12" ;
+  ontology:has_name          "Fontaines s/S - Quai Simon" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8324657183306240" ;
+  geo:long                   "4.8487792326838308"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "9006" ;
+  ontology:has_last_update   "2019-12-12 19:08:18" ;
+  ontology:has_name          "Théâtre Nouvelle Génération" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7772955373720120" ;
+  geo:long                   "4.8033117445656650"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "3031" ;
+  ontology:has_last_update   "2019-12-12 19:16:00" ;
+  ontology:has_name          "Corneille / Servient" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7599305258836110" ;
+  geo:long                   "4.8445159039671504"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10039" ;
+  ontology:has_last_update   "2019-12-12 19:13:02" ;
+  ontology:has_name          "Bouvier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7794499265826080" ;
+  geo:long                   "4.8915008245270393"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "2020" ;
+  ontology:has_last_update   "2019-12-12 19:16:46" ;
+  ontology:has_name          "Musée des Confluences" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7333083359277880" ;
+  geo:long                   "4.8189203135366743"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "9050" ;
+  ontology:has_last_update   "2019-12-12 19:09:08" ;
+  ontology:has_name          "Allée de l'Europe" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7836371650547920" ;
+  geo:long                   "4.7945253084995629"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "7015" ;
+  ontology:has_last_update   "2019-12-12 19:15:13" ;
+  ontology:has_name          "Techsud" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7227999997408930" ;
+  geo:long                   "4.8427060003576159"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "9002" ;
+  ontology:has_last_update   "2019-12-12 19:12:25" ;
+  ontology:has_name          "Mairie du 9e" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7742408280787810" ;
+  geo:long                   "4.8056660114147771"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "4025" ;
+  ontology:has_last_update   "2019-12-12 19:15:12" ;
+  ontology:has_name          "Chazière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7754224668984690" ;
+  geo:long                   "4.8178899295525035"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "10025" ;
+  ontology:has_last_update   "2019-12-12 19:15:20" ;
+  ontology:has_name          "Totem" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7636407030234980" ;
+  geo:long                   "4.8731410878807795"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "4041" ;
+  ontology:has_last_update   "2019-12-12 19:08:20" ;
+  ontology:has_name          "Boussange / Austerlitz" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7755023590485810" ;
+  geo:long                   "4.8350625452914064"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "16005" ;
+  ontology:has_last_update   "2019-12-12 19:14:36" ;
+  ontology:has_name          "Vénissieux - Gare" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7063403824794530" ;
+  geo:long                   "4.8886809407000067"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "12002" ;
+  ontology:has_last_update   "2019-12-12 19:07:30" ;
+  ontology:has_name          "Vaulx - Poudrette / La Soie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7644003130587790" ;
+  geo:long                   "4.9192757859473666"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "3066" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Kimmerling / Faure" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7543427791886760" ;
+  geo:long                   "4.8633437213905841"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "10048" ;
+  ontology:has_last_update   "2019-12-12 19:15:30" ;
+  ontology:has_name          "Place Marengo" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7591435230511510" ;
+  geo:long                   "4.8759935561091980"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "15002" ;
+  ontology:has_last_update   "2019-12-12 19:10:26" ;
+  ontology:has_name          "St Priest - Cité Berliet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7059819724876420" ;
+  geo:long                   "4.9009848506091007"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8042" ;
+  ontology:has_last_update   "2019-12-12 19:14:05" ;
+  ontology:has_name          "Francis de Pressenssé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7314272671117620" ;
+  geo:long                   "4.8600379663129871"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10038" ;
+  ontology:has_last_update   "2019-12-12 19:10:07" ;
+  ontology:has_name          "Condorcet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7790457737185790" ;
+  geo:long                   "4.8667783280240924"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "10092" ;
+  ontology:has_last_update   "2019-12-12 19:10:17" ;
+  ontology:has_name          "Montgolfier / Château Gaillard" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7715577376675430" ;
+  geo:long                   "4.8903695657718780"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "7064" ;
+  ontology:has_last_update   "2019-12-12 19:14:04" ;
+  ontology:has_name          "CROUS" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7454305152808020" ;
+  geo:long                   "4.8477802774631007"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "9044" ;
+  ontology:has_last_update   "2019-12-12 19:09:27" ;
+  ontology:has_name          "Masset / Saint-Pierre de Vaise" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7704769200645740" ;
+  geo:long                   "4.8009004832411426"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "22" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "7002" ;
+  ontology:has_last_update   "2019-12-12 19:15:56" ;
+  ontology:has_name          "Universités Lyon III / Lyon II" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7514132273513000" ;
+  geo:long                   "4.8363931815987780"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "3034" ;
+  ontology:has_last_update   "2019-12-12 19:16:55" ;
+  ontology:has_name          "Garibaldi / Pensionnat" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7547065642496240" ;
+  geo:long                   "4.8534044474099280"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "3099" ;
+  ontology:has_last_update   "2019-12-12 19:12:17" ;
+  ontology:has_name          "Place Sainte Anne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7569549747275200" ;
+  geo:long                   "4.8654416591953460"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "6043" ;
+  ontology:has_last_update   "2019-12-12 19:13:01" ;
+  ontology:has_name          "Cité Internationale / Cinéma" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7847015036764230" ;
+  geo:long                   "4.8519081064540366"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "6041" ;
+  ontology:has_last_update   "2019-12-12 19:16:48" ;
+  ontology:has_name          "Cité Internationale / Tête d'Or nord" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7846110498866350" ;
+  geo:long                   "4.8596391471386804"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10028" ;
+  ontology:has_last_update   "2019-12-12 19:13:38" ;
+  ontology:has_name          "Ecole de musique" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7675343020076260" ;
+  geo:long                   "4.8739662098689820"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "12004" ;
+  ontology:has_last_update   "2019-12-12 19:17:11" ;
+  ontology:has_name          "Vaulx - Hôtel de ville" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7782973092579720" ;
+  geo:long                   "4.9207001064103109"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "4004" ;
+  ontology:has_last_update   "2019-12-12 19:08:21" ;
+  ontology:has_name          "Hénon" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7797553671142550" ;
+  geo:long                   "4.8276484010879557"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7055" ;
+  ontology:has_last_update   "2019-12-12 19:16:32" ;
+  ontology:has_name          "Servant / Jaboulay" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7467662258473740" ;
+  geo:long                   "4.8420506993495058"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "4006" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Philippe de Lassalle" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7737230904642590" ;
+  geo:long                   "4.8213019761705525"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "24" ;
+  ontology:has_id            "12001" ;
+  ontology:has_last_update   "2019-12-12 19:11:08" ;
+  ontology:has_name          "Vaulx - La Soie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7608131946829250" ;
+  geo:long                   "4.9206039456886055"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "5050" ;
+  ontology:has_last_update   "2019-12-12 19:14:28" ;
+  ontology:has_name          "Théâtre Romain" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7583623960292910" ;
+  geo:long                   "4.8210866415482529"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3071" ;
+  ontology:has_last_update   "2019-12-12 19:09:27" ;
+  ontology:has_name          "BioParc" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7404830910258650" ;
+  geo:long                   "4.8880858101360474"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "33" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "7006" ;
+  ontology:has_last_update   "2019-12-12 19:16:32" ;
+  ontology:has_name          "Gerland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7275732848257230" ;
+  geo:long                   "4.8311974821956261"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "" ;
+  ontology:has_aviable_slot  "" ;
+  ontology:has_id            "10045" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Anatole France / Alsace" ;
+  ontology:renting           "" ;
+  geo:lat                    "45.7670823153311870" ;
+  geo:long                   "4.8706390455761799"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "6033" ;
+  ontology:has_last_update   "2019-12-12 19:16:58" ;
+  ontology:has_name          "Créqui / Lafayette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7637960125263280" ;
+  geo:long                   "4.8470620002854572"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "3050" ;
+  ontology:has_last_update   "2019-12-12 19:09:24" ;
+  ontology:has_name          "Friche RVI" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7483207051236600" ;
+  geo:long                   "4.8759239595508284"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3090" ;
+  ontology:has_last_update   "2019-12-12 19:11:07" ;
+  ontology:has_name          "Vinatier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7419208619871470" ;
+  geo:long                   "4.8939627777052399"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "35" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "1022" ;
+  ontology:has_last_update   "2019-12-12 19:15:22" ;
+  ontology:has_name          "Place Tolozan" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7696005888254260" ;
+  geo:long                   "4.8376084367310748"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "8056" ;
+  ontology:has_last_update   "2019-12-12 19:13:18" ;
+  ontology:has_name          "Delore / Audibert et Lavirotte" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7357952320592890" ;
+  geo:long                   "4.8568128186711998"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "11002" ;
+  ontology:has_last_update   "2019-12-12 19:14:55" ;
+  ontology:has_name          "Caluire - Saint-Clair" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7854707644412220" ;
+  geo:long                   "4.8478421222935548"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "3067" ;
+  ontology:has_last_update   "2019-12-12 19:16:24" ;
+  ontology:has_name          "Hachette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7529160218789240" ;
+  geo:long                   "4.8638526893825507"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10043" ;
+  ontology:has_last_update   "2019-12-12 19:10:47" ;
+  ontology:has_name          "Salengro / Feyssine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7830110745978800" ;
+  geo:long                   "4.8905858366251023"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "4008" ;
+  ontology:has_last_update   "2019-12-12 19:08:17" ;
+  ontology:has_name          "Clos Savaron" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7826362574796020" ;
+  geo:long                   "4.8255591851847726"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "35" ;
+  ontology:has_id            "10002" ;
+  ontology:has_last_update   "2019-12-12 19:16:23" ;
+  ontology:has_name          "INSA" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7821896441245850" ;
+  geo:long                   "4.8768799244436716"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "1023" ;
+  ontology:has_last_update   "2019-12-12 19:16:46" ;
+  ontology:has_name          "Croix Rousse / Perfetti" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7722538415304920" ;
+  geo:long                   "4.8194608620100041"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "1024" ;
+  ontology:has_last_update   "2019-12-12 19:13:59" ;
+  ontology:has_name          "Rouville" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7696644422938020" ;
+  geo:long                   "4.8246123488633987"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "3009" ;
+  ontology:has_last_update   "2019-12-12 19:12:52" ;
+  ontology:has_name          "Musée Africain" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7502533119060360" ;
+  geo:long                   "4.8579250300630621"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "8050" ;
+  ontology:has_last_update   "2019-12-12 19:13:01" ;
+  ontology:has_name          "Bataille / Krüger" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7362395960067330" ;
+  geo:long                   "4.8798418411853790"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "31" ;
+  ontology:has_id            "3017" ;
+  ontology:has_last_update   "2019-12-12 19:16:24" ;
+  ontology:has_name          "Saxe / Dunoir" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7609483816605830" ;
+  geo:long                   "4.8452325958943723"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "17" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "2039" ;
+  ontology:has_last_update   "2019-12-12 19:16:26" ;
+  ontology:has_name          "Charité / Récamier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7492533954913870" ;
+  geo:long                   "4.8298441257520306"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "9029" ;
+  ontology:has_last_update   "2019-12-12 19:16:56" ;
+  ontology:has_name          "Saint Pierre de Vaise" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7730995725331480" ;
+  geo:long                   "4.8078137222645942"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "8059" ;
+  ontology:has_last_update   "2019-12-12 19:13:14" ;
+  ontology:has_name          "Laennec / Pinel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7353460225460320" ;
+  geo:long                   "4.8895839762811750"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "2042" ;
+  ontology:has_last_update   "2019-12-12 19:12:00" ;
+  ontology:has_name          "Joffre / Vaubecour" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7518482427555360" ;
+  geo:long                   "4.8247344893159925"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "7013" ;
+  ontology:has_last_update   "2019-12-12 19:07:31" ;
+  ontology:has_name          "Halle Tony Garnier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7308422388673180" ;
+  geo:long                   "4.8237404067653964"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "10014" ;
+  ontology:has_last_update   "2019-12-12 19:08:24" ;
+  ontology:has_name          "Laurent Bonnevay - Astroballe" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7651240553553580" ;
+  geo:long                   "4.9098182197044347"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "8054" ;
+  ontology:has_last_update   "2019-12-12 19:14:58" ;
+  ontology:has_name          "Martinière / Monplaisir" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7408472643867510" ;
+  geo:long                   "4.8682065451769923"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "3024" ;
+  ontology:has_last_update   "2019-12-12 19:10:07" ;
+  ontology:has_name          "Rockfeller / Esquirol" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7414231127129510" ;
+  geo:long                   "4.8853771979328720"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "3039" ;
+  ontology:has_last_update   "2019-12-12 19:10:51" ;
+  ontology:has_name          "Place Bir-Hakeim" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7525921437139620" ;
+  geo:long                   "4.8557101486887975"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "5044" ;
+  ontology:has_last_update   "2019-12-12 19:13:15" ;
+  ontology:has_name          "Champvert" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7597959541759560" ;
+  geo:long                   "4.7965641858696300"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "6028" ;
+  ontology:has_last_update   "2019-12-12 19:13:47" ;
+  ontology:has_name          "Récamier / Tête d'Or" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7643336975612060" ;
+  geo:long                   "4.8534921297061953"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "1021" ;
+  ontology:has_last_update   "2019-12-12 19:17:02" ;
+  ontology:has_name          "Terreaux / Beaux Arts" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7670410048109700" ;
+  geo:long                   "4.8342839059717138"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "27" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "7022" ;
+  ontology:has_last_update   "2019-12-12 19:10:00" ;
+  ontology:has_name          "Jaurès / Lagrange" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7439256046218220" ;
+  geo:long                   "4.8415220893002839"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "7005" ;
+  ontology:has_last_update   "2019-12-12 19:09:13" ;
+  ontology:has_name          "Debourg" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7317535548177500" ;
+  geo:long                   "4.8339617941232040"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "3013" ;
+  ontology:has_last_update   "2019-12-12 19:13:53" ;
+  ontology:has_name          "Place Antoinette" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7536448445955490" ;
+  geo:long                   "4.8892685574130930"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "4001" ;
+  ontology:has_last_update   "2019-12-12 19:15:47" ;
+  ontology:has_name          "Conservatoire bis" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7703894302220250" ;
+  geo:long                   "4.8142456674237000"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "26" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7033" ;
+  ontology:has_last_update   "2019-12-12 19:17:13" ;
+  ontology:has_name          "Saint-Luc / Saint-Joseph" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7494176952947240" ;
+  geo:long                   "4.8347520047111061"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "10049" ;
+  ontology:has_last_update   "2019-12-12 19:16:44" ;
+  ontology:has_name          "Pressensé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7691684753850790" ;
+  geo:long                   "4.8967695846255017"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "8002" ;
+  ontology:has_last_update   "2019-12-12 19:11:15" ;
+  ontology:has_name          "Place Ambroise Courtois" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7452926164534970" ;
+  geo:long                   "4.8716789632578008"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "5002" ;
+  ontology:has_last_update   "2019-12-12 19:15:35" ;
+  ontology:has_name          "Place des Compagnons de la chanson" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7565273368783990" ;
+  geo:long                   "4.7966121788894247"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "7001" ;
+  ontology:has_last_update   "2019-12-12 19:16:54" ;
+  ontology:has_name          "Place Gabriel Péri" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7548790164649190" ;
+  geo:long                   "4.8436750818920178"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "7038" ;
+  ontology:has_last_update   "2019-12-12 19:16:59" ;
+  ontology:has_name          "Place Stalingard" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7495788810534310" ;
+  geo:long                   "4.8529655050157778"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "8033" ;
+  ontology:has_last_update   "2019-12-12 19:16:52" ;
+  ontology:has_name          "Berthelot / Cazeneuve" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7373162879662940" ;
+  geo:long                   "4.8655284896846744"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "3044" ;
+  ontology:has_last_update   "2019-12-12 19:15:18" ;
+  ontology:has_name          "Quai Augagneur" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7619651301154850" ;
+  geo:long                   "4.8410534307662090"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "7017" ;
+  ontology:has_last_update   "2019-12-12 19:13:01" ;
+  ontology:has_name          "Beauvoir / Marot" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7373071313228510" ;
+  geo:long                   "4.8329916088585998"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "8024" ;
+  ontology:has_last_update   "2019-12-12 19:17:02" ;
+  ontology:has_name          "Mermoz / Michelet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7332717801443990" ;
+  geo:long                   "4.8786008569623753"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "14003" ;
+  ontology:has_last_update   "2019-12-12 19:10:56" ;
+  ontology:has_name          "Bron - Place Curial" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7366744242415280" ;
+  geo:long                   "4.9171004856320097"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "29" ;
+  ontology:has_id            "10102" ;
+  ontology:has_last_update   "2019-12-12 19:16:20" ;
+  ontology:has_name          "DOUA / Gaston Berger" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7809444797410170" ;
+  geo:long                   "4.8713269128915702"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "1003" ;
+  ontology:has_last_update   "2019-12-12 19:16:45" ;
+  ontology:has_name          "Place Sathonay" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7692658462512870" ;
+  geo:long                   "4.8300797887695630"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "22001" ;
+  ontology:has_last_update   "2019-12-12 19:12:28" ;
+  ontology:has_name          "Ste Foy - Place Saint-Luc" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7495654052048620" ;
+  geo:long                   "4.8008960240920420"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "3082" ;
+  ontology:has_last_update   "2019-12-12 00:30:00" ;
+  ontology:has_name          "Place Bahadourian" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7576229228584170" ;
+  geo:long                   "4.8451085953553852"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "6017" ;
+  ontology:has_last_update   "2019-12-12 19:14:23" ;
+  ontology:has_name          "Lafayette / Inkermann" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7639360244316790" ;
+  geo:long                   "4.8659132544557258"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "10064" ;
+  ontology:has_last_update   "2019-12-12 19:13:52" ;
+  ontology:has_name          "4 août 1789" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7648217045185530" ;
+  geo:long                   "4.8843189291137268"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2028" ;
+  ontology:has_last_update   "2019-12-12 19:15:13" ;
+  ontology:has_name          "Sainte-Blandine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7444223014223040" ;
+  geo:long                   "4.8221428704396105"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "10111" ;
+  ontology:has_last_update   "2019-12-12 19:15:58" ;
+  ontology:has_name          "Charles Hernu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7703105281291940" ;
+  geo:long                   "4.8620024989211670"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "19001" ;
+  ontology:has_last_update   "2019-12-12 19:09:11" ;
+  ontology:has_name          "St Genis L. - Médiathèque" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.6978120018869020" ;
+  geo:long                   "4.7947728497160735"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "17" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7031" ;
+  ontology:has_last_update   "2019-12-12 19:14:57" ;
+  ontology:has_name          "Jaurès / Gerland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7398132348896810" ;
+  geo:long                   "4.8403073886228567"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "2013" ;
+  ontology:has_last_update   "2019-12-12 19:08:06" ;
+  ontology:has_name          "Célestins" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7599398325897230" ;
+  geo:long                   "4.8320716113863762"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "3015" ;
+  ontology:has_last_update   "2019-12-12 19:16:54" ;
+  ontology:has_name          "Servient / Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7607758409992020" ;
+  geo:long                   "4.8526939571425469"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "5016" ;
+  ontology:has_last_update   "2019-12-12 19:16:41" ;
+  ontology:has_name          "Mairie du 5e" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7561939286588810" ;
+  geo:long                   "4.8027110791690140"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10036" ;
+  ontology:has_last_update   "2019-12-12 19:16:24" ;
+  ontology:has_name          "Stalingrad" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7743568286995240" ;
+  geo:long                   "4.8591545857608356"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "30" ;
+  ontology:has_id            "10056" ;
+  ontology:has_last_update   "2019-12-12 19:13:52" ;
+  ontology:has_name          "11 novembre / Gaston Berger" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7790639863242460" ;
+  geo:long                   "4.8714964631896152"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3037" ;
+  ontology:has_last_update   "2019-12-12 19:13:15" ;
+  ontology:has_name          "Paul Bert / Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7571028581681740" ;
+  geo:long                   "4.8534807971166600"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "8001" ;
+  ontology:has_last_update   "2019-12-12 19:12:46" ;
+  ontology:has_name          "Université Lyon III" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7485395662598650" ;
+  geo:long                   "4.8615417793642548"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "25" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "5004" ;
+  ontology:has_last_update   "2019-12-12 19:12:12" ;
+  ontology:has_name          "Saint-Jean" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7604837438977800" ;
+  geo:long                   "4.8265650503972601"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "8060" ;
+  ontology:has_last_update   "2019-12-12 19:16:08" ;
+  ontology:has_name          "Santy / Beauvisage" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7316833148738980" ;
+  geo:long                   "4.8741275326105118"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "10032" ;
+  ontology:has_last_update   "2019-12-12 19:13:45" ;
+  ontology:has_name          "Primat / Decorps" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7571560146472440" ;
+  geo:long                   "4.8999652194279451"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "5055" ;
+  ontology:has_last_update   "2019-12-12 19:17:11" ;
+  ontology:has_name          "Buyer / Apollinaire" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7620132943614020" ;
+  geo:long                   "4.8027598903443769"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "29" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "2002" ;
+  ontology:has_last_update   "2019-12-12 19:15:31" ;
+  ontology:has_name          "Bellecour / St Exupéry" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7581569109321860" ;
+  geo:long                   "4.8304346949094690"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "5041" ;
+  ontology:has_last_update   "2019-12-12 19:08:09" ;
+  ontology:has_name          "L'Homme de la Roche" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7665803442908090" ;
+  geo:long                   "4.8202302422982601"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "7008" ;
+  ontology:has_last_update   "2019-12-12 19:17:05" ;
+  ontology:has_name          "Jean Jaurès / Guillotière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7525809002148800" ;
+  geo:long                   "4.8463206182240945"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "21001" ;
+  ontology:has_last_update   "2019-12-12 19:12:36" ;
+  ontology:has_name          "La Mulatière - Aquarium" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7273693332767340" ;
+  geo:long                   "4.8146354766198369"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "3053" ;
+  ontology:has_last_update   "2019-12-12 19:16:51" ;
+  ontology:has_name          "Gambetta / Jusserand" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7511124102764410" ;
+  geo:long                   "4.8555850883006508"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "18" ;
+  ontology:has_aviable_slot  "22" ;
+  ontology:has_id            "2037" ;
+  ontology:has_last_update   "2019-12-12 19:17:22" ;
+  ontology:has_name          "Place des Archives" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7479691410901740" ;
+  geo:long                   "4.8248617280093153"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "33" ;
+  ontology:has_id            "10101" ;
+  ontology:has_last_update   "2019-12-12 19:17:24" ;
+  ontology:has_name          "Einstein / 11 novembre 1918" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7794214867087280" ;
+  geo:long                   "4.8740757995838857"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "6035" ;
+  ontology:has_last_update   "2019-12-12 19:09:07" ;
+  ontology:has_name          "Cité Internationale" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7854214249623790" ;
+  geo:long                   "4.8541240727107642"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10011" ;
+  ontology:has_last_update   "2019-12-12 19:13:26" ;
+  ontology:has_name          "Gratte-Ciel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7692274364669060" ;
+  geo:long                   "4.8804622522382601"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "5040" ;
+  ontology:has_last_update   "2019-12-12 19:16:53" ;
+  ontology:has_name          "Place Crépu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7578416796382400" ;
+  geo:long                   "4.8261054516922881"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "10087" ;
+  ontology:has_last_update   "2019-12-12 19:15:48" ;
+  ontology:has_name          "Baratin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7606037573681730" ;
+  geo:long                   "4.9006969683209185"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "8035" ;
+  ontology:has_last_update   "2019-12-12 19:14:34" ;
+  ontology:has_name          "Sans Souci" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7472487338214580" ;
+  geo:long                   "4.8652857830315162"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "9010" ;
+  ontology:has_last_update   "2019-12-12 19:17:02" ;
+  ontology:has_name          "Piscine de Vaise" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7710182884515080" ;
+  geo:long                   "4.7964503487575509"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "3086" ;
+  ontology:has_last_update   "2019-12-12 19:16:01" ;
+  ontology:has_name          "Feuillat / Lacassagne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7495627067970790" ;
+  geo:long                   "4.8759334029685046"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "3004" ;
+  ontology:has_last_update   "2019-12-12 19:16:50" ;
+  ontology:has_name          "Bourse du travail" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7596382324954690" ;
+  geo:long                   "4.8480846921356076"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "10063" ;
+  ontology:has_last_update   "2019-12-12 19:11:31" ;
+  ontology:has_name          "Perrin / Jean Jaurès" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7583918194315590" ;
+  geo:long                   "4.8856094344245129"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "28" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "2022" ;
+  ontology:has_last_update   "2019-12-12 19:08:49" ;
+  ontology:has_name          "Place Carnot" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7512303840983710" ;
+  geo:long                   "4.8268909446731270"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "7010" ;
+  ontology:has_last_update   "2019-12-12 19:15:02" ;
+  ontology:has_name          "Centre Berthelot" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7473561743230870" ;
+  geo:long                   "4.8359996982041684"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "3016" ;
+  ontology:has_last_update   "2019-12-12 19:12:54" ;
+  ontology:has_name          "Liberté / Part-Dieu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7593422663364460" ;
+  geo:long                   "4.8422275870211209"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "9011" ;
+  ontology:has_last_update   "2019-12-12 19:17:19" ;
+  ontology:has_name          "Conservatoire" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7697822121574090" ;
+  geo:long                   "4.8126762195854047"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "5015" ;
+  ontology:has_last_update   "2019-12-12 19:12:35" ;
+  ontology:has_name          "Fulchiron" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7520011769432880" ;
+  geo:long                   "4.8216617983516281"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "9042" ;
+  ontology:has_last_update   "2019-12-12 19:14:20" ;
+  ontology:has_name          "Vaise Docks" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7865084443620280" ;
+  geo:long                   "4.8114412174203718"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "9052" ;
+  ontology:has_last_update   "2019-12-12 19:09:05" ;
+  ontology:has_name          "Balmont" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7893151875845130" ;
+  geo:long                   "4.7991603409726267"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "7056" ;
+  ontology:has_last_update   "2019-12-12 19:09:04" ;
+  ontology:has_name          "Place Raspail" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7557747699610790" ;
+  geo:long                   "4.8407411543374979"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "6024" ;
+  ontology:has_last_update   "2019-12-12 19:13:53" ;
+  ontology:has_name          "Tronchet / Anatole France" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7707371546228860" ;
+  geo:long                   "4.8567521774675422"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "8015" ;
+  ontology:has_last_update   "2019-12-12 19:13:20" ;
+  ontology:has_name          "Jean XXIII" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7403259296418700" ;
+  geo:long                   "4.8741942706838781"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "10103" ;
+  ontology:has_last_update   "2019-12-12 19:15:12" ;
+  ontology:has_name          "DOUA / Rue des sports" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7844851872384310" ;
+  geo:long                   "4.8774042325766302"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "8025" ;
+  ontology:has_last_update   "2019-12-12 19:11:02" ;
+  ontology:has_name          "Dumont / Jouvet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7444606289942610" ;
+  geo:long                   "4.8609937736791071"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "34001" ;
+  ontology:has_last_update   "2019-12-12 19:16:15" ;
+  ontology:has_name          "Neuville - Quai Pasteur" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8766089913122170" ;
+  geo:long                   "4.8386237264875973"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "20" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "1032" ;
+  ontology:has_last_update   "2019-12-12 19:16:59" ;
+  ontology:has_name          "Pizay" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7672004172203160" ;
+  geo:long                   "4.8363916853563289"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "6004" ;
+  ontology:has_last_update   "2019-12-12 19:15:56" ;
+  ontology:has_name          "Foch" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7688513697593610" ;
+  geo:long                   "4.8447649388425829"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "16" ;
+  ontology:has_id            "2017" ;
+  ontology:has_last_update   "2019-12-12 19:14:37" ;
+  ontology:has_name          "République / Ferrandière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7621739970214780" ;
+  geo:long                   "4.8359706936868223"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "4005" ;
+  ontology:has_last_update   "2019-12-12 19:09:25" ;
+  ontology:has_name          "Place Bertone" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7776173765049850" ;
+  geo:long                   "4.8345009421112763"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "7036" ;
+  ontology:has_last_update   "2019-12-12 19:16:34" ;
+  ontology:has_name          "Gryphe / Montesquieu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7519114393107320" ;
+  geo:long                   "4.8437864046911105"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "10117" ;
+  ontology:has_last_update   "2019-12-12 19:14:42" ;
+  ontology:has_name          "La Pérralière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7645636665294120" ;
+  geo:long                   "4.8923336071821142"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "22" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2035" ;
+  ontology:has_last_update   "2019-12-12 19:08:50" ;
+  ontology:has_name          "Childebert / Rivière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7598862786474210" ;
+  geo:long                   "4.8357987999345911"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "8053" ;
+  ontology:has_last_update   "2019-12-12 19:14:06" ;
+  ontology:has_name          "Lumière / Trouilhet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7435720690503300" ;
+  geo:long                   "4.8701059691417319"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "2006" ;
+  ontology:has_last_update   "2019-12-12 19:10:27" ;
+  ontology:has_name          "Place de l'Hippodrome" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7455815521804820" ;
+  geo:long                   "4.8235326732363086"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "5006" ;
+  ontology:has_last_update   "2019-12-12 19:17:21" ;
+  ontology:has_name          "Quai Romain Rolland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7620370806926720" ;
+  geo:long                   "4.8288896824580405"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "10030" ;
+  ontology:has_last_update   "2019-12-12 19:11:25" ;
+  ontology:has_name          "Greuze" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7738436681981610" ;
+  geo:long                   "4.8938480167143412"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "17" ;
+  ontology:has_aviable_slot  "23" ;
+  ontology:has_id            "7003" ;
+  ontology:has_last_update   "2019-12-12 19:16:59" ;
+  ontology:has_name          "Gambetta / Garibaldi" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7517901355474730" ;
+  geo:long                   "4.8526079660087520"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "26" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7053" ;
+  ontology:has_last_update   "2019-12-12 19:16:42" ;
+  ontology:has_name          "Jaurès / Thibaudière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7503447975739450" ;
+  geo:long                   "4.8450482534996375"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "8030" ;
+  ontology:has_last_update   "2019-12-12 19:08:20" ;
+  ontology:has_name          "Laënnec" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7413737377965570" ;
+  geo:long                   "4.8797369306165574"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "14004" ;
+  ontology:has_last_update   "2019-12-12 19:16:45" ;
+  ontology:has_name          "Bron - Mairie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7339455296300700" ;
+  geo:long                   "4.9087206818679405"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "27" ;
+  ontology:has_id            "6042" ;
+  ontology:has_last_update   "2019-12-12 19:11:10" ;
+  ontology:has_name          "Cité Internationale / Résidence hôtelière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7848181552653910" ;
+  geo:long                   "4.8565116142349005"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "10055" ;
+  ontology:has_last_update   "2019-12-12 19:14:26" ;
+  ontology:has_name          "Condorcet / Galline" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7764535731413250" ;
+  geo:long                   "4.8671149219928846"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "10075" ;
+  ontology:has_last_update   "2019-12-12 19:13:24" ;
+  ontology:has_name          "Gabriel Péri" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7722995938508110" ;
+  geo:long                   "4.8656992684460585"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "6006" ;
+  ontology:has_last_update   "2019-12-12 19:17:12" ;
+  ontology:has_name          "Boulevard des Belges" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7733270382747510" ;
+  geo:long                   "4.8519894989151782"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "9046" ;
+  ontology:has_last_update   "2019-12-12 19:11:51" ;
+  ontology:has_name          "Mangini" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7904088071307310" ;
+  geo:long                   "4.8163493917942377"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "30001" ;
+  ontology:has_last_update   "2019-12-12 19:08:50" ;
+  ontology:has_name          "Rillieux - Canellas" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8050913402650010" ;
+  geo:long                   "4.8847438731991382"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10083" ;
+  ontology:has_last_update   "2019-12-12 19:13:17" ;
+  ontology:has_name          "Château Gaillard / Bienvenus" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7778649152535660" ;
+  geo:long                   "4.8842442857728363"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "5045" ;
+  ontology:has_last_update   "2019-12-12 19:15:18" ;
+  ontology:has_name          "Valdo / Rivet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7504814834310240" ;
+  geo:long                   "4.7887741211031214"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "24001" ;
+  ontology:has_last_update   "2019-12-12 19:17:08" ;
+  ontology:has_name          "Ecully - Mairie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7750890702448960" ;
+  geo:long                   "4.7786729160837336"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "41" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "1002" ;
+  ontology:has_last_update   "2019-12-12 19:12:18" ;
+  ontology:has_name          "Opéra" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7675693270001890" ;
+  geo:long                   "4.8363352069947023"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "8023" ;
+  ontology:has_last_update   "2019-12-12 19:15:53" ;
+  ontology:has_name          "Mermoz / Pinel" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7307938036109430" ;
+  geo:long                   "4.8874632602485164"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "4007" ;
+  ontology:has_last_update   "2019-12-12 19:11:10" ;
+  ontology:has_name          "Place Flammarion" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7793264516606800" ;
+  geo:long                   "4.8203031984414517"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "30002" ;
+  ontology:has_last_update   "2019-12-12 19:11:52" ;
+  ontology:has_name          "Rillieux - Loup Pendu" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8159701108686620" ;
+  geo:long                   "4.8870434508176661"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "16" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "4012" ;
+  ontology:has_last_update   "2019-12-12 19:13:52" ;
+  ontology:has_name          "Place Adrien Godien" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7786706157080870" ;
+  geo:long                   "4.8410134096251811"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "19" ;
+  ontology:has_aviable_slot  "21" ;
+  ontology:has_id            "2008" ;
+  ontology:has_last_update   "2019-12-12 19:16:04" ;
+  ontology:has_name          "Place Antonin Poncet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7567623213032210" ;
+  geo:long                   "4.8339273966533849"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2025" ;
+  ontology:has_last_update   "2019-12-12 19:11:52" ;
+  ontology:has_name          "Mercière / Ferrandière" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7620553014781280" ;
+  geo:long                   "4.8332059556379781"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "17003" ;
+  ontology:has_last_update   "2019-12-12 19:09:43" ;
+  ontology:has_name          "St Fons - Théatre" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7079860163389780" ;
+  geo:long                   "4.8601564934850359"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "16003" ;
+  ontology:has_last_update   "2019-12-12 19:17:15" ;
+  ontology:has_name          "Vénissieux - Joliot Curie / Sembat" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7154529520501360" ;
+  geo:long                   "4.8782350614798364"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "11001" ;
+  ontology:has_last_update   "2019-12-12 19:16:25" ;
+  ontology:has_name          "Caluire - Gare de Cuire" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7857755308468410" ;
+  geo:long                   "4.8337134215891258"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "10012" ;
+  ontology:has_last_update   "2019-12-12 19:16:09" ;
+  ontology:has_name          "Zola / France" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7680704202145780" ;
+  geo:long                   "4.8871237200591935"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "12003" ;
+  ontology:has_last_update   "2019-12-12 19:13:27" ;
+  ontology:has_name          "Vaulx - Bibliothèque" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7570697600648660" ;
+  geo:long                   "4.9273216112656586"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "23" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "9014" ;
+  ontology:has_last_update   "2019-12-12 19:10:07" ;
+  ontology:has_name          "Quai du Commerce" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7834856612731400" ;
+  geo:long                   "4.8114878428420669"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "18" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "4023" ;
+  ontology:has_last_update   "2019-12-12 19:12:14" ;
+  ontology:has_name          "Pont Masaryk" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7782780129806140" ;
+  geo:long                   "4.8106317576202677"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "4021" ;
+  ontology:has_last_update   "2019-12-12 19:13:07" ;
+  ontology:has_name          "Tabareau" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7740806705343890" ;
+  geo:long                   "4.8251597121983645"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "10119" ;
+  ontology:has_last_update   "2019-12-12 19:09:18" ;
+  ontology:has_name          "Villeurbanne Saint-Jean" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7804458217109410" ;
+  geo:long                   "4.9044888457892961"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "10" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "7018" ;
+  ontology:has_last_update   "2019-12-12 19:15:29" ;
+  ontology:has_name          "Lycée Louise Labé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7402806526508460" ;
+  geo:long                   "4.8320593704251733"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "23" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "3018" ;
+  ontology:has_last_update   "2019-12-12 19:15:24" ;
+  ontology:has_name          "Créqui / Voltaire" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7566983441751920" ;
+  geo:long                   "4.8484034857557150"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "6023" ;
+  ontology:has_last_update   "2019-12-12 19:10:52" ;
+  ontology:has_name          "Quai Sarrail" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7668296196242750" ;
+  geo:long                   "4.8411393393513276"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "9032" ;
+  ontology:has_last_update   "2019-12-12 19:11:11" ;
+  ontology:has_name          "Place du Port Mouton" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7738201179439200" ;
+  geo:long                   "4.8095603029641687"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "6" ;
+  ontology:has_id            "7025" ;
+  ontology:has_last_update   "2019-12-12 19:16:34" ;
+  ontology:has_name          "Lacour / Artillerie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7294969995972310" ;
+  geo:long                   "4.8439379996052212"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "9" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "20002" ;
+  ontology:has_last_update   "2019-12-12 19:09:14" ;
+  ontology:has_name          "Oullins - Mairie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7140014190252940" ;
+  geo:long                   "4.8065443341113525"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10047" ;
+  ontology:has_last_update   "2019-12-12 19:17:01" ;
+  ontology:has_name          "Lherminier / Pressensé" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7711232449440570" ;
+  geo:long                   "4.8850235984658994"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "6" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "2015" ;
+  ontology:has_last_update   "2019-12-12 19:12:50" ;
+  ontology:has_name          "République / Stella" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7607097863131220" ;
+  geo:long                   "4.8362889729420431"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "6003" ;
+  ontology:has_last_update   "2019-12-12 19:17:14" ;
+  ontology:has_name          "Avenue Verguin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7729113974482830" ;
+  geo:long                   "4.8563267813588187"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "24" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "2026" ;
+  ontology:has_last_update   "2019-12-12 19:17:22" ;
+  ontology:has_name          "République / Paufique" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7593809563465260" ;
+  geo:long                   "4.8353992022816499"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "7026" ;
+  ontology:has_last_update   "2019-12-12 19:09:35" ;
+  ontology:has_name          "Baldassini / Gerland" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7276967807767180" ;
+  geo:long                   "4.8373820902736711"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "4042" ;
+  ontology:has_last_update   "2019-12-12 19:14:43" ;
+  ontology:has_name          "Grégory Coupet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7817001067679500" ;
+  geo:long                   "4.8206000461275869"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "27001" ;
+  ontology:has_last_update   "2019-12-12 19:13:51" ;
+  ontology:has_name          "Collonges - Gare" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.8308539622466850" ;
+  geo:long                   "4.8470037538635253"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "11" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "8010" ;
+  ontology:has_last_update   "2019-12-12 19:13:34" ;
+  ontology:has_name          "Place Mendès France" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7399270587134770" ;
+  geo:long                   "4.8595210870362999"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "26" ;
+  ontology:has_aviable_slot  "8" ;
+  ontology:has_id            "7057" ;
+  ontology:has_last_update   "2019-12-12 19:16:07" ;
+  ontology:has_name          "Jaurès / Bollier" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7347254902347230" ;
+  geo:long                   "4.8354967607642045"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "14001" ;
+  ontology:has_last_update   "2019-12-12 19:10:17" ;
+  ontology:has_name          "Bron - Centre Nautique" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7429072853314480" ;
+  geo:long                   "4.9086250104223286"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "7" ;
+  ontology:has_aviable_slot  "9" ;
+  ontology:has_id            "8052" ;
+  ontology:has_last_update   "2019-12-12 19:16:39" ;
+  ontology:has_name          "Clinique Montplaisir" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7470967140946740" ;
+  geo:long                   "4.8601437036179034"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "12" ;
+  ontology:has_id            "4009" ;
+  ontology:has_last_update   "2019-12-12 19:12:49" ;
+  ontology:has_name          "Jacquart / Denfert-Rochereau" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7758995112138360" ;
+  geo:long                   "4.8253789620711203"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "10" ;
+  ontology:has_id            "17002" ;
+  ontology:has_last_update   "2019-12-12 19:07:28" ;
+  ontology:has_name          "St Fons - 4 chemins" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7084541926180350" ;
+  geo:long                   "4.8547671040719056"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "14" ;
+  ontology:has_id            "4026" ;
+  ontology:has_last_update   "2019-12-12 19:13:48" ;
+  ontology:has_name          "Birmingham" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7746311098016750" ;
+  geo:long                   "4.8134162571603989"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "15" ;
+  ontology:has_id            "10041" ;
+  ontology:has_last_update   "2019-12-12 19:17:10" ;
+  ontology:has_name          "Kimmerling" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7529723995867810" ;
+  geo:long                   "4.8988656628976361"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "34" ;
+  ontology:has_id            "3036" ;
+  ontology:has_last_update   "2019-12-12 19:11:46" ;
+  ontology:has_name          "Félix Faure / Vivier Merle" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7538149056220500" ;
+  geo:long                   "4.8598558941293657"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "5" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "9040" ;
+  ontology:has_last_update   "2019-12-12 19:12:17" ;
+  ontology:has_name          "Place de la Rhodiacéta" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7709906411448560" ;
+  geo:long                   "4.8075804142518948"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "25" ;
+  ontology:has_id            "10084" ;
+  ontology:has_last_update   "2019-12-12 19:16:45" ;
+  ontology:has_name          "Doua / Avenue des Arts" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7835136793198600" ;
+  geo:long                   "4.8712731104104918"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "18" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "9043" ;
+  ontology:has_last_update   "2019-12-12 19:14:47" ;
+  ontology:has_name          "Marietton Ouest" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7760850428762750" ;
+  geo:long                   "4.7997376609700089"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "23" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "7045" ;
+  ontology:has_last_update   "2019-12-12 19:17:10" ;
+  ontology:has_name          "Parc des Berges" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7377409586890170" ;
+  geo:long                   "4.8244875157097109"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "22" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "10058" ;
+  ontology:has_last_update   "2019-12-12 19:16:31" ;
+  ontology:has_name          "métro Flachet" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7670909450657110" ;
+  geo:long                   "4.8924286413845515"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "36" ;
+  ontology:has_aviable_slot  "1" ;
+  ontology:has_id            "2007" ;
+  ontology:has_last_update   "2019-12-12 19:16:04" ;
+  ontology:has_name          "Patinoire Charlemagne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7426115005543960" ;
+  geo:long                   "4.8204716703055039"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "8034" ;
+  ontology:has_last_update   "2019-12-12 19:16:10" ;
+  ontology:has_name          "Berthelot / Villon" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7382725902588940" ;
+  geo:long                   "4.8626987923823561"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "15" ;
+  ontology:has_aviable_slot  "5" ;
+  ontology:has_id            "8006" ;
+  ontology:has_last_update   "2019-12-12 19:13:36" ;
+  ontology:has_name          "Place du 8 mai 1945" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7297663546006700" ;
+  geo:long                   "4.8681665813493629"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "20" ;
+  ontology:has_id            "3033" ;
+  ontology:has_last_update   "2019-12-12 19:16:40" ;
+  ontology:has_name          "Paul Bert / Vivier Merle" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7571477697522010" ;
+  geo:long                   "4.8580904354818850"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "29" ;
+  ontology:has_id            "3003" ;
+  ontology:has_last_update   "2019-12-12 19:14:49" ;
+  ontology:has_name          "Part-Dieu / Deruelle" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7629790120815440" ;
+  geo:long                   "4.8550066229887996"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "0" ;
+  ontology:has_id            "3070" ;
+  ontology:has_last_update   "2019-12-12 00:30:01" ;
+  ontology:has_name          "Rebatel / Saint-Maximin" ;
+  ontology:renting           "CLOSED" ;
+  geo:lat                    "45.7478135296658550" ;
+  geo:long                   "4.8722519668217288"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "2005" ;
+  ontology:has_last_update   "2019-12-12 19:14:24" ;
+  ontology:has_name          "Confluence Hôtel de Région" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7405383152039140" ;
+  geo:long                   "4.8191795184368047"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "4017" ;
+  ontology:has_last_update   "2019-12-12 19:12:00" ;
+  ontology:has_name          "Place des tapis" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7760264913711410" ;
+  geo:long                   "4.8296210962258828"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "10121" ;
+  ontology:has_last_update   "2019-12-12 19:16:56" ;
+  ontology:has_name          "Parc du Centre" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7719119252490780" ;
+  geo:long                   "4.8790707067819019"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "3" ;
+  ontology:has_aviable_slot  "13" ;
+  ontology:has_id            "3102" ;
+  ontology:has_last_update   "2019-12-12 19:13:35" ;
+  ontology:has_name          "Docteur Long / Aubépins" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7525429085336630" ;
+  geo:long                   "4.8942587457505971"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "0" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "1036" ;
+  ontology:has_last_update   "2019-12-12 19:11:12" ;
+  ontology:has_name          "Aveyron" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7743716157555480" ;
+  geo:long                   "4.8328150087604627"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "2" ;
+  ontology:has_aviable_slot  "28" ;
+  ontology:has_id            "6025" ;
+  ontology:has_last_update   "2019-12-12 19:09:59" ;
+  ontology:has_name          "Place d'Helvétie" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7731863072103170" ;
+  geo:long                   "4.8419593354412900"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "1" ;
+  ontology:has_aviable_slot  "19" ;
+  ontology:has_id            "10053" ;
+  ontology:has_last_update   "2019-12-12 19:12:19" ;
+  ontology:has_name          "Rossellini / 11 Novembre" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7794083136080090" ;
+  geo:long                   "4.8629021690287688"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "3005" ;
+  ontology:has_last_update   "2019-12-12 19:16:59" ;
+  ontology:has_name          "Saxe / Gambetta" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7537858652435570" ;
+  geo:long                   "4.8480424261036825"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "25" ;
+  ontology:has_aviable_slot  "3" ;
+  ontology:has_id            "3084" ;
+  ontology:has_last_update   "2019-12-12 19:14:28" ;
+  ontology:has_name          "Desaix" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7572612599251580" ;
+  geo:long                   "4.8552008564228180"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "2" ;
+  ontology:has_id            "6044" ;
+  ontology:has_last_update   "2019-12-12 19:16:00" ;
+  ontology:has_name          "Charmettes / Bellecombe" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7663703493176260" ;
+  geo:long                   "4.8650841638710620"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "23" ;
+  ontology:has_aviable_slot  "7" ;
+  ontology:has_id            "7030" ;
+  ontology:has_last_update   "2019-12-12 19:17:11" ;
+  ontology:has_name          "Quartier Général Frère" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7432217977239400" ;
+  geo:long                   "4.8342510240081396"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "4" ;
+  ontology:has_aviable_slot  "18" ;
+  ontology:has_id            "10113" ;
+  ontology:has_last_update   "2019-12-12 19:15:12" ;
+  ontology:has_name          "Gare de Villeurbanne" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7557668546375140" ;
+  geo:long                   "4.8914894327085978"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "14" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "3103" ;
+  ontology:has_last_update   "2019-12-12 19:17:19" ;
+  ontology:has_name          "Place Danton" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7548124485154370" ;
+  geo:long                   "4.8575743726010305"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "8" ;
+  ontology:has_aviable_slot  "4" ;
+  ontology:has_id            "10118" ;
+  ontology:has_last_update   "2019-12-12 19:16:17" ;
+  ontology:has_name          "Voyant / Chambord" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7671533127280340" ;
+  geo:long                   "4.9005991607433979"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "12" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "3069" ;
+  ontology:has_last_update   "2019-12-12 19:13:33" ;
+  ontology:has_name          "Dauphiné / Saint-Maximin" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7499462288418290" ;
+  geo:long                   "4.8646503841216662"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "13" ;
+  ontology:has_aviable_slot  "17" ;
+  ontology:has_id            "10019" ;
+  ontology:has_last_update   "2019-12-12 19:17:06" ;
+  ontology:has_name          "4 Août / Racine" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7644829391731920" ;
+  geo:long                   "4.8779206263003294"
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     "29" ;
+  ontology:has_aviable_slot  "11" ;
+  ontology:has_id            "9033" ;
+  ontology:has_last_update   "2019-12-12 19:09:33" ;
+  ontology:has_name          "Gorge de Loup" ;
+  ontology:renting           "OPEN" ;
+  geo:lat                    "45.7673654785190890" ;
+  geo:long                   "4.8056276995192775"
+] .

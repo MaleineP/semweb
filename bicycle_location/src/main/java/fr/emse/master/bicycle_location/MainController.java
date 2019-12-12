@@ -38,14 +38,12 @@ public class MainController {
 	
 	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)
 	public String SaintEtienne(Model m) {
-		System.out.println("launch");
-		String[] cities = {"st_etienne"};
+		
+		String city = "st_etienne";
 		String query_path = "src/main/resources/queries/dynamic/";
 		String ttl_path = "src/main/resources/ttl/dynamic/";
-		for(int i=0; i<cities.length; i++) {
-			System.out.println(i);
-			new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
-		}
+		
+		new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl");
 		
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
@@ -99,14 +97,16 @@ public class MainController {
 	@RequestMapping(value = "/lyon", method = RequestMethod.GET)
 	public String Lyon(Model m) {
 		
-		System.out.println("launch");
-		String[] cities = {"lyon"};
+		String city = "lyon";
 		String query_path = "src/main/resources/queries/dynamic/";
 		String ttl_path = "src/main/resources/ttl/dynamic/";
-		for(int i=0; i<cities.length; i++) {
-			System.out.println(i);
-			new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
+		
+		File tmpFile = new File(ttl_path+city+".ttl");
+		 if (tmpFile.exists() == false)  { // the loading is really long
+			new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl");
 		}
+		
+		
 		
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
