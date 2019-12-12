@@ -32,8 +32,15 @@ public class MainController {
 		 * try { OWLOntology ontology = this.loadOntology(); } catch (OWLException e) {
 		 * e.printStackTrace(); }
 		 */
-
-		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
+		System.out.println("launch");
+		String[] cities = {"st_etienne"};
+		String query_path = "src/main/resources/queries/dynamic/";
+		String ttl_path = "src/main/resources/ttl/dynamic/";
+		for(int i=0; i<cities.length; i++) {
+			System.out.println(i);
+			new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
+		}
+		
 
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
@@ -52,6 +59,7 @@ public class MainController {
 		for (Resource subject : list_iter_static) {
 			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
 			liste_static.add(tmp);
+			break;
 		}
 
 		for (Resource subject : list_iter_dynamic) {

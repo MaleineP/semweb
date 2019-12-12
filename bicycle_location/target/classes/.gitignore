@@ -1,4 +1,6 @@
-/Dynamic.sparql
-/Static.sparql
-/sparql-generate.jar
+/application.properties
 /fr/
+/index.html
+/queries/
+/sparql-generate.jar
+/ttl/
