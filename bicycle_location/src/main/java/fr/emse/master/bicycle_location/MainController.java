@@ -36,22 +36,22 @@ public class MainController {
 		return "index.html";
 	}
 	
-	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)
+	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)   // script for the city : St Etienne
 	public String SaintEtienne(Model m) {
 		
-		String city = "st_etienne";
-		String query_path = "src/main/resources/queries/dynamic/";
-		String ttl_path = "src/main/resources/ttl/dynamic/";
+		String city = "st_etienne"; // city name
+		String query_path = "src/main/resources/queries/dynamic/"; // path for the query for dynamic data
+		String ttl_path = "src/main/resources/ttl/dynamic/";	// path for the ttl file produced by sparql generate
 		
-		new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl");
+		new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl"); // execute the query
 		
-		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
-		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
+		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel(); 	// initialize the model for static data
+		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();	// initialize the model for dynamic data
 
-		model_static.read("src/main/resources/ttl/static/st_etienne.ttl");
-		model_dynamic.read("src/main/resources/ttl/dynamic/st_etienne.ttl");
+		model_static.read("src/main/resources/ttl/static/st_etienne.ttl"); 	// load the ttl file
+		model_dynamic.read("src/main/resources/ttl/dynamic/st_etienne.ttl"); 
 
-		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
+		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();	// initialize the list of triples, each element is a station
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
 		ResIterator iter = model_static.listSubjects();
 		List<Resource> list_iter_static = iter.toList();
@@ -59,9 +59,9 @@ public class MainController {
 
 		//ArrayList<List<Statement>> saint_etienne = new ArrayList<List<Statement>>();
 
-		for (Resource subject : list_iter_static) {
-			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
-			liste_static.add(tmp);
+		for (Resource subject : list_iter_static) { // for each station
+			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null); // create all the triples where the subject is the station
+			liste_static.add(tmp); // add those triples to the list of station
 		}
 
 		for (Resource subject : list_iter_dynamic) {
@@ -94,7 +94,7 @@ public class MainController {
 		return "saint_etienne.html";
 	}
 	
-	@RequestMapping(value = "/lyon", method = RequestMethod.GET)
+	@RequestMapping(value = "/lyon", method = RequestMethod.GET) // script for the city : Lyon
 	public String Lyon(Model m) {
 		
 		String city = "lyon";
@@ -108,22 +108,13 @@ public class MainController {
 		
 		
 		
-		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
-		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
+		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel(); // there is no static data for this city
 
-		model_static.read("src/main/resources/ttl/static/"+ "lyon" +"ttl");
 		model_dynamic.read("src/main/resources/ttl/dynamic/lyon.ttl");
 
 		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
-		ResIterator iter = model_static.listSubjects();
-		List<Resource> list_iter_static = iter.toList();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
-
-		for (Resource subject : list_iter_static) {
-			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
-			liste_static.add(tmp);
-		}
 
 		for (Resource subject : list_iter_dynamic) {
 			StmtIterator tmp = model_dynamic.listStatements(subject, (Property) null, (RDFNode) null);
