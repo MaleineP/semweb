@@ -19,5 +19,4 @@ We have been transforming the information distributed by a bicycle agency to rdf
 
   - Then we import this ttl file into java thanks to the Jena package. In the MainApplication class, we load the ttl file as a list of triples.
 
-  - Finally, it is transformed to visual information in the front-page of the website and also to RDFa inside the HTLM code.  
-  ///// tu peux mettre plus de commentaire ici/////
+  - Finally, it is transformed to visual information in the front-page of the website and also to RDFa inside the HTLM code. Each statement is merged in a list with others with the same the subject before being displayed into the html file.

@@ -7,7 +7,7 @@ public class create_ttl {
 		try {
 			// execute the generate-sparql.jar for a query located in inp_path
 			Process process = Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"java -jar "+jar_path+" -q "+inp_path+" -o " +out_path+ "\"");
-			// the console need to be closed manually once the loading is over
+			process.destroy();// the console is closed once the loading is over
 		} catch (IOException e) {
 		} 
 	}
