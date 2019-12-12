@@ -1,6 +1,11 @@
-/Dynamic.sparql
-/Static.sparql
-/sparql-generate.jar
+/application.properties
 /fr/
+<<<<<<< HEAD
 /saint_etienne.html
 /lyon.html
+=======
+/index.html
+/queries/
+/sparql-generate.jar
+/ttl/
+>>>>>>> da2ee4732795075d549b0f9614b6b14ec03c25e3

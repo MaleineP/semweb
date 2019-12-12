@@ -38,13 +38,20 @@ public class MainController {
 	
 	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)
 	public String SaintEtienne(Model m) {
-		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
-		//TODO
+		System.out.println("launch");
+		String[] cities = {"st_etienne"};
+		String query_path = "src/main/resources/queries/dynamic/";
+		String ttl_path = "src/main/resources/ttl/dynamic/";
+		for(int i=0; i<cities.length; i++) {
+			System.out.println(i);
+			new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
+		}
+		
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
 
-		model_static.read("ttl_static.ttl");
-		model_dynamic.read("ttl_dynamic.ttl");
+		model_static.read("src/main/resources/ttl/static/st_etienne.ttl");
+		model_dynamic.read("src/main/resources/ttl/dynamic/st_etienne.ttl");
 
 		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
@@ -57,6 +64,7 @@ public class MainController {
 		for (Resource subject : list_iter_static) {
 			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
 			liste_static.add(tmp);
+			break;
 		}
 
 		for (Resource subject : list_iter_dynamic) {
@@ -92,13 +100,21 @@ public class MainController {
 	
 	@RequestMapping(value = "/lyon", method = RequestMethod.GET)
 	public String Lyon(Model m) {
-		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
-		//TODO
+		
+		System.out.println("launch");
+		String[] cities = {"lyon"};
+		String query_path = "src/main/resources/queries/dynamic/";
+		String ttl_path = "src/main/resources/ttl/dynamic/";
+		for(int i=0; i<cities.length; i++) {
+			System.out.println(i);
+			new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
+		}
+		
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
 
-		model_static.read("ttl_static.ttl");
-		model_dynamic.read("ttl_dynamic.ttl");
+		model_static.read("src/main/resources/ttl/static/"+ "lyon" +"ttl");
+		model_dynamic.read("src/main/resources/ttl/dynamic/lyon.ttl");
 
 		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
