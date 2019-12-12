@@ -47,7 +47,7 @@ public class MainController {
 		List<Resource> list_iter_static = iter.toList();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
 
-		ArrayList<StmtIterator> saint_etienne = new ArrayList<StmtIterator>();
+		ArrayList<List<Statement>> saint_etienne = new ArrayList<List<Statement>>();
 
 		for (Resource subject : list_iter_static) {
 			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
@@ -59,7 +59,7 @@ public class MainController {
 			liste_dynamic.add(tmp);
 		}
 
-		Property hasId = model_static
+		/*Property hasId = model_static
 				.getProperty("http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id");
 		Property hasId_d = model_dynamic
 				.getProperty("http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#has_id");
@@ -70,14 +70,18 @@ public class MainController {
 			System.out.println(id);
 			for (StmtIterator liste_stmt_dynamic : liste_dynamic) {
 				StmtIterator tmp_bis = liste_stmt_dynamic;
-				if (id == tmp_bis.toModel().listObjectsOfProperty(hasId_d).toList().get(0)) {
-					saint_etienne.add((StmtIterator) liste_stmt_static.andThen(liste_stmt_dynamic));
+				if (id.equals(tmp_bis.toModel().listObjectsOfProperty(hasId_d).toList().get(0))) {
+					List<Statement> tmp_ter = liste_stmt_static.toList();
+					tmp_ter.addAll(liste_stmt_dynamic.toList());
+					saint_etienne.add(tmp_ter);
+					System.out.println(tmp_ter);
 					break;
 				}
 			}
-		}
+		}*/
 
-		m.addAttribute("saint_etienne", saint_etienne);
+		m.addAttribute("saint_etienne_d", liste_dynamic);
+		m.addAttribute("saint_etienne_s", liste_static);
 		return "index.html";
 	}
 
