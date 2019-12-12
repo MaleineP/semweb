@@ -22,8 +22,8 @@
 				    </tr>
 				  </thead>
 				  <tbody th:each="stations: ${saint_etienne_s}">
-				    <tr th:each="station: ${stations}">
-				      <td th:text="${station.predicate.localName}"></td>
+				    <tr th:each="station: ${stations}" about="${station.subject}">
+				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
 				      <td th:text="${station.object}"></td>
 				    </tr>
 				    <tr class="table-dark">
@@ -33,8 +33,6 @@
 				  </tbody>
 				</table>
 			</div>	
-        </div>        
-        <div class="d-flex justify-content-end">
         	<div class="p-2 bd-highlight">
 	    		<table class="table">
 				  <thead class="thead-dark">
@@ -44,8 +42,8 @@
 				    </tr>
 				  </thead>
 				  <tbody th:each="stations: ${saint_etienne_d}">
-				    <tr th:each="station: ${stations}">
-				      <td th:text="${station.predicate.localName}"></td>
+				    <tr th:each="station: ${stations}" about="${station.subject}">
+				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
 				      <td th:text="${station.object}"></td>
 				    </tr>
 				    <tr class="table-dark">
