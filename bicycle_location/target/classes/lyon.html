@@ -11,9 +11,9 @@
     <body>
     <a th:href="@{/}">Accueil</a>
 <!-- tableau bootstrap -->
-        <div class="d-flex justify-content-start">
+        <div class="d-flex justify-content-start">	
         	<div class="p-2 bd-highlight">
-        		<h2>Lyon Static Data</h2>
+        		<h2>Lyon Data</h2>
 	    		<table class="table">
 				  <thead class="thead-dark">
 				    <tr>
@@ -21,28 +21,7 @@
 				      <th scope="col">object</th>
 				    </tr>
 				  </thead>
-				  <tbody th:each="stations: ${lyon_s}">
-				    <tr th:each="station: ${stations}" about="${station.subject}">
-				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
-				      <td th:text="${station.object}"></td>
-				    </tr>
-				    <tr class="table-dark">
-				   	  <td ></td>
-				      <td ></td>
-				    </tr>
-				  </tbody>
-				</table>
-			</div>	
-        	<div class="p-2 bd-highlight">
-        		<h2>Lyon Dynamic Data</h2>
-	    		<table class="table">
-				  <thead class="thead-dark">
-				    <tr>
-				      <th scope="col">predicate</th>
-				      <th scope="col">object</th>
-				    </tr>
-				  </thead>
-				  <tbody th:each="stations: ${lyon_d}">
+				  <tbody th:each="stations: ${lyon}">
 				    <tr th:each="station: ${stations}" about="${station.subject}">
 				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
 				      <td th:text="${station.object}"></td>

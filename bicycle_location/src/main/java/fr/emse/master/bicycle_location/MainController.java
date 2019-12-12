@@ -112,7 +112,6 @@ public class MainController {
 
 		model_dynamic.read("src/main/resources/ttl/dynamic/lyon.ttl");
 
-		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
 
@@ -121,8 +120,7 @@ public class MainController {
 			liste_dynamic.add(tmp);
 		}
 		
-		m.addAttribute("lyon_d", liste_dynamic);
-		m.addAttribute("lyon_s", liste_static);
+		m.addAttribute("lyon", liste_dynamic);
 		return "lyon.html";
 	}
 
