@@ -108,30 +108,19 @@ public class MainController {
 		
 		
 		
-		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
 
-		model_static.read("src/main/resources/ttl/static/"+ "lyon" +"ttl");
 		model_dynamic.read("src/main/resources/ttl/dynamic/lyon.ttl");
 
-		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
-		ResIterator iter = model_static.listSubjects();
-		List<Resource> list_iter_static = iter.toList();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
-
-		for (Resource subject : list_iter_static) {
-			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
-			liste_static.add(tmp);
-		}
 
 		for (Resource subject : list_iter_dynamic) {
 			StmtIterator tmp = model_dynamic.listStatements(subject, (Property) null, (RDFNode) null);
 			liste_dynamic.add(tmp);
 		}
 		
-		m.addAttribute("lyon_d", liste_dynamic);
-		m.addAttribute("lyon_s", liste_static);
+		m.addAttribute("lyon", liste_dynamic);
 		return "lyon.html";
 	}
 
