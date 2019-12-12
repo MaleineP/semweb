@@ -64,7 +64,6 @@ public class MainController {
 		for (Resource subject : list_iter_static) {
 			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
 			liste_static.add(tmp);
-			break;
 		}
 
 		for (Resource subject : list_iter_dynamic) {
@@ -92,7 +91,6 @@ public class MainController {
 				}
 			}
 		}*/
-
 		m.addAttribute("saint_etienne_d", liste_dynamic);
 		m.addAttribute("saint_etienne_s", liste_static);
 		return "saint_etienne.html";

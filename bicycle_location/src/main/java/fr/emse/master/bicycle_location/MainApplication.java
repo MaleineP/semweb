@@ -17,9 +17,9 @@ public class MainApplication {
 		
 		 for(int i=0; i<cities.length; i++) {
 			 File tmpFile = new File(ttl_path+cities[i]+".ttl");
-			 if (tmpFile.exists() == false)  {
-				 new create_ttl("target/classes/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
-			 }
+			 //if (tmpFile.exists() == false)  {
+				 new create_ttl("src/main/resources/sparql-generate.jar", query_path+cities[i]+".sparql", ttl_path+cities[i]+".ttl");
+			 //}
 		 }
 	            
 		

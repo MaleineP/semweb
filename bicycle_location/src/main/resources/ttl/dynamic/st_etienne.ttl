@@ -1,0 +1,236 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix ontology: <http://www.semanticweb.org/acer/ontologies/2019/9/bicycle_sharing#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+[ a                          ontology:station ;
+  ontology:has_available     18 ;
+  ontology:has_aviable_slot  6 ;
+  ontology:has_id            112 ;
+  ontology:has_last_update   1576167223 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     4 ;
+  ontology:has_aviable_slot  12 ;
+  ontology:has_id            129 ;
+  ontology:has_last_update   1576167768 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     12 ;
+  ontology:has_aviable_slot  4 ;
+  ontology:has_id            123 ;
+  ontology:has_last_update   1576167979 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     10 ;
+  ontology:has_aviable_slot  6 ;
+  ontology:has_id            122 ;
+  ontology:has_last_update   1576168073 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     8 ;
+  ontology:has_aviable_slot  16 ;
+  ontology:has_id            113 ;
+  ontology:has_last_update   1576167871 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     8 ;
+  ontology:has_aviable_slot  16 ;
+  ontology:has_id            117 ;
+  ontology:has_last_update   1576167207 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     5 ;
+  ontology:has_aviable_slot  7 ;
+  ontology:has_id            104 ;
+  ontology:has_last_update   1576167781 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     11 ;
+  ontology:has_aviable_slot  5 ;
+  ontology:has_id            125 ;
+  ontology:has_last_update   1576167376 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     7 ;
+  ontology:has_aviable_slot  9 ;
+  ontology:has_id            130 ;
+  ontology:has_last_update   1576167698 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     5 ;
+  ontology:has_aviable_slot  11 ;
+  ontology:has_id            124 ;
+  ontology:has_last_update   1576167579 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     0 ;
+  ontology:has_aviable_slot  32 ;
+  ontology:has_id            101 ;
+  ontology:has_last_update   1576167507 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     5 ;
+  ontology:has_aviable_slot  27 ;
+  ontology:has_id            106 ;
+  ontology:has_last_update   1576167769 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     17 ;
+  ontology:has_aviable_slot  7 ;
+  ontology:has_id            115 ;
+  ontology:has_last_update   1576167954 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     5 ;
+  ontology:has_aviable_slot  11 ;
+  ontology:has_id            107 ;
+  ontology:has_last_update   1576167935 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     6 ;
+  ontology:has_aviable_slot  10 ;
+  ontology:has_id            102 ;
+  ontology:has_last_update   1576167703 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     10 ;
+  ontology:has_aviable_slot  6 ;
+  ontology:has_id            116 ;
+  ontology:has_last_update   1576167774 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     6 ;
+  ontology:has_aviable_slot  26 ;
+  ontology:has_id            105 ;
+  ontology:has_last_update   1576167810 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     7 ;
+  ontology:has_aviable_slot  9 ;
+  ontology:has_id            118 ;
+  ontology:has_last_update   1576167903 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     8 ;
+  ontology:has_aviable_slot  16 ;
+  ontology:has_id            103 ;
+  ontology:has_last_update   1576167702 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     9 ;
+  ontology:has_aviable_slot  7 ;
+  ontology:has_id            110 ;
+  ontology:has_last_update   1576168065 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     8 ;
+  ontology:has_aviable_slot  16 ;
+  ontology:has_id            127 ;
+  ontology:has_last_update   1576167400 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     9 ;
+  ontology:has_aviable_slot  15 ;
+  ontology:has_id            114 ;
+  ontology:has_last_update   1576167825 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     7 ;
+  ontology:has_aviable_slot  9 ;
+  ontology:has_id            120 ;
+  ontology:has_last_update   1576167591 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     7 ;
+  ontology:has_aviable_slot  9 ;
+  ontology:has_id            109 ;
+  ontology:has_last_update   1576167573 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     6 ;
+  ontology:has_aviable_slot  26 ;
+  ontology:has_id            126 ;
+  ontology:has_last_update   1576167393 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     14 ;
+  ontology:has_aviable_slot  18 ;
+  ontology:has_id            108 ;
+  ontology:has_last_update   1576167599 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     6 ;
+  ontology:has_aviable_slot  6 ;
+  ontology:has_id            111 ;
+  ontology:has_last_update   1576167245 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     7 ;
+  ontology:has_aviable_slot  9 ;
+  ontology:has_id            128 ;
+  ontology:has_last_update   1576167692 ;
+  ontology:renting           1
+] .
+
+[ a                          ontology:station ;
+  ontology:has_available     12 ;
+  ontology:has_aviable_slot  12 ;
+  ontology:has_id            119 ;
+  ontology:has_last_update   1576167531 ;
+  ontology:renting           1
+] .
