@@ -26,15 +26,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class MainController {
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String gotToIndex(Model m) {
 		/*
 		 * try { OWLOntology ontology = this.loadOntology(); } catch (OWLException e) {
 		 * e.printStackTrace(); }
 		 */
-
+		return "index.html";
+	}
+	
+	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)
+	public String SaintEtienne(Model m) {
 		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
-
+		//TODO
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
 
@@ -47,7 +52,7 @@ public class MainController {
 		List<Resource> list_iter_static = iter.toList();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
 
-		ArrayList<List<Statement>> saint_etienne = new ArrayList<List<Statement>>();
+		//ArrayList<List<Statement>> saint_etienne = new ArrayList<List<Statement>>();
 
 		for (Resource subject : list_iter_static) {
 			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
@@ -82,7 +87,38 @@ public class MainController {
 
 		m.addAttribute("saint_etienne_d", liste_dynamic);
 		m.addAttribute("saint_etienne_s", liste_static);
-		return "index.html";
+		return "saint_etienne.html";
+	}
+	
+	@RequestMapping(value = "/lyon", method = RequestMethod.GET)
+	public String Lyon(Model m) {
+		new create_ttl("target/classes/sparql-generate.jar", "target/classes/Dynamic.sparql", "ttl_dynamic.ttl");
+		//TODO
+		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel();
+		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();
+
+		model_static.read("ttl_static.ttl");
+		model_dynamic.read("ttl_dynamic.ttl");
+
+		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();
+		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
+		ResIterator iter = model_static.listSubjects();
+		List<Resource> list_iter_static = iter.toList();
+		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
+
+		for (Resource subject : list_iter_static) {
+			StmtIterator tmp = model_static.listStatements(subject, (Property) null, (RDFNode) null);
+			liste_static.add(tmp);
+		}
+
+		for (Resource subject : list_iter_dynamic) {
+			StmtIterator tmp = model_dynamic.listStatements(subject, (Property) null, (RDFNode) null);
+			liste_dynamic.add(tmp);
+		}
+		
+		m.addAttribute("lyon_d", liste_dynamic);
+		m.addAttribute("lyon_s", liste_static);
+		return "lyon.html";
 	}
 
 	/*

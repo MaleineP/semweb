@@ -10,49 +10,9 @@
     </head>
     <body>
 	    <h1>Bicycle Location</h1>
-        
-        <!-- tableau bootstrap -->
-        <div class="d-flex justify-content-start">
-        	<div class="p-2 bd-highlight">
-	    		<table class="table">
-				  <thead class="thead-dark">
-				    <tr>
-				      <th scope="col">predicate</th>
-				      <th scope="col">object</th>
-				    </tr>
-				  </thead>
-				  <tbody th:each="stations: ${saint_etienne_s}">
-				    <tr th:each="station: ${stations}" about="${station.subject}">
-				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
-				      <td th:text="${station.object}"></td>
-				    </tr>
-				    <tr class="table-dark">
-				   	  <td ></td>
-				      <td ></td>
-				    </tr>
-				  </tbody>
-				</table>
-			</div>	
-        	<div class="p-2 bd-highlight">
-	    		<table class="table">
-				  <thead class="thead-dark">
-				    <tr>
-				      <th scope="col">predicate</th>
-				      <th scope="col">object</th>
-				    </tr>
-				  </thead>
-				  <tbody th:each="stations: ${saint_etienne_d}">
-				    <tr th:each="station: ${stations}" about="${station.subject}">
-				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
-				      <td th:text="${station.object}"></td>
-				    </tr>
-				    <tr class="table-dark">
-				   	  <td ></td>
-				      <td ></td>
-				    </tr>
-				  </tbody>
-				</table>
-			</div>	
-        </div>
+        <br />
+        <h3><a th:href="@{/saint_etienne}">Saint Etienne</a></h3>
+        <br />
+        <h3><a th:href="@{/lyon}">Lyon</a></h3>
     </body>
 </html>
