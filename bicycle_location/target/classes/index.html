@@ -11,8 +11,10 @@
     <body>
 	    <h1>Bicycle Location</h1>
         <br />
-        <h3><a th:href="@{/saint_etienne}">Saint Etienne</a></h3>
+        <h3>
+        <a th:href="@{/dyn+stat?city=st_etienne}">Saint Etienne</a>
+        </h3>
         <br />
-        <h3><a th:href="@{/lyon}">Lyon</a></h3>
+        <h3><a th:href="@{/dyn?city=lyon}">Lyon</a></h3>
     </body>
 </html>

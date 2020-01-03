@@ -13,7 +13,7 @@
 <!-- tableau bootstrap -->
         <div class="d-flex justify-content-start">
         	<div class="p-2 bd-highlight">
-        		<h2>Saint Etienne Static Data</h2>
+        		<h2>Static Data</h2>
 	    		<table class="table">
 				  <thead class="thead-dark">
 				    <tr>
@@ -21,9 +21,9 @@
 				      <th scope="col">object</th>
 				    </tr>
 				  </thead>
-				  <tbody th:each="stations: ${saint_etienne_s}">
-				    <tr th:each="station: ${stations}" about="${station.subject}">
-				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
+				  <tbody th:each="stations: ${city_s}">
+				    <tr th:each="station: ${stations}" th:about="${station.subject}">
+				      <td th:property="${station.predicate}" th:content="${station.object}" th:text="${station.predicate.localName}"></td>
 				      <td th:text="${station.object}"></td>
 				    </tr>
 				    <tr class="table-dark">
@@ -34,7 +34,7 @@
 				</table>
 			</div>	
         	<div class="p-2 bd-highlight">
-        		<h2>Saint Etienne Dynamic Data</h2>
+        		<h2>Dynamic Data</h2>
 	    		<table class="table">
 				  <thead class="thead-dark">
 				    <tr>
@@ -42,9 +42,9 @@
 				      <th scope="col">object</th>
 				    </tr>
 				  </thead>
-				  <tbody th:each="stations: ${saint_etienne_d}">
-				    <tr th:each="station: ${stations}" about="${station.subject}">
-				      <td property="${station.predicate}" content="${station.object}" th:text="${station.predicate.localName}"></td>
+				  <tbody th:each="stations: ${city_d}">
+				    <tr th:each="station: ${stations}" th:about="${station.subject}">
+				      <td th:property="${station.predicate}" th:content="${station.object}" th:text="${station.predicate.localName}"></td>
 				      <td th:text="${station.object}"></td>
 				    </tr>
 				    <tr class="table-dark">

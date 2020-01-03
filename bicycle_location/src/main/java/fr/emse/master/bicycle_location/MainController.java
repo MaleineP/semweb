@@ -23,6 +23,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class MainController {
@@ -33,23 +34,23 @@ public class MainController {
 		 * try { OWLOntology ontology = this.loadOntology(); } catch (OWLException e) {
 		 * e.printStackTrace(); }
 		 */
+		m.addAttribute("city", new String());
 		return "index.html";
 	}
 	
-	@RequestMapping(value = "/saint_etienne", method = RequestMethod.GET)   // script for the city : St Etienne
-	public String SaintEtienne(Model m) {
+	@RequestMapping(value = "/dyn+stat", method = RequestMethod.GET)   // script for cities with dynamic and static values
+	public String SaintEtienne(Model m, @RequestParam("city") String city) {
 		
-		String city = "st_etienne"; // city name
 		String query_path = "src/main/resources/queries/dynamic/"; // path for the query for dynamic data
 		String ttl_path = "src/main/resources/ttl/dynamic/";	// path for the ttl file produced by sparql generate
 		
-		new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl"); // execute the query
+		new create_ttl("src/main/resources/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl"); // execute the query
 		
 		org.apache.jena.rdf.model.Model model_static = ModelFactory.createDefaultModel(); 	// initialize the model for static data
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel();	// initialize the model for dynamic data
 
-		model_static.read("src/main/resources/ttl/static/st_etienne.ttl"); 	// load the ttl file
-		model_dynamic.read("src/main/resources/ttl/dynamic/st_etienne.ttl"); 
+		model_static.read("src/main/resources/ttl/static/"+ city + ".ttl"); 	// load the ttl file
+		model_dynamic.read("src/main/resources/ttl/dynamic/"+ city + ".ttl"); 
 
 		ArrayList<StmtIterator> liste_static = new ArrayList<StmtIterator>();	// initialize the list of triples, each element is a station
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
@@ -89,28 +90,27 @@ public class MainController {
 				}
 			}
 		}*/
-		m.addAttribute("saint_etienne_d", liste_dynamic);
-		m.addAttribute("saint_etienne_s", liste_static);
+		m.addAttribute("city_d", liste_dynamic);
+		m.addAttribute("city_s", liste_static);
 		return "saint_etienne.html";
 	}
 	
-	@RequestMapping(value = "/lyon", method = RequestMethod.GET) // script for the city : Lyon
-	public String Lyon(Model m) {
+	@RequestMapping(value = "/dyn", method = RequestMethod.GET) // script for the city : Lyon
+	public String Lyon(Model m, @RequestParam("city") String city) {
 		
-		String city = "lyon";
 		String query_path = "src/main/resources/queries/dynamic/";
 		String ttl_path = "src/main/resources/ttl/dynamic/";
 		
 		File tmpFile = new File(ttl_path+city+".ttl");
-		 if (tmpFile.exists() == false)  { // the loading is really long
-			new create_ttl("target/classes/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl");
-		}
+		 //if (tmpFile.exists() == false)  { // the loading is really long
+			new create_ttl("src/main/resources/sparql-generate.jar", query_path+city+".sparql", ttl_path+city+".ttl");
+		//}
 		
 		
 		
 		org.apache.jena.rdf.model.Model model_dynamic = ModelFactory.createDefaultModel(); // there is no static data for this city
 
-		model_dynamic.read("src/main/resources/ttl/dynamic/lyon.ttl");
+		model_dynamic.read("src/main/resources/ttl/dynamic/"+ city +".ttl");
 
 		ArrayList<StmtIterator> liste_dynamic = new ArrayList<StmtIterator>();
 		List<Resource> list_iter_dynamic = model_dynamic.listSubjects().toList();
@@ -120,7 +120,7 @@ public class MainController {
 			liste_dynamic.add(tmp);
 		}
 		
-		m.addAttribute("lyon", liste_dynamic);
+		m.addAttribute("city", liste_dynamic);
 		return "lyon.html";
 	}
 
